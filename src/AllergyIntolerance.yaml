@@ -75,6 +75,7 @@ elements:
           definition: A reaction to the identified substance has been clinically reassessed by testing or re-exposure and is considered no longer to be present. Re-exposure could be accidental, unplanned, or outside of any clinical setting.
   reaction:
     collection: true
+    elements:
       manifestation:
         required: true
         valueset: {id: 'fhir:clinical-findings' }
