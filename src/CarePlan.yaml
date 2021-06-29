@@ -12,7 +12,7 @@ abstract: false
 type: CarePlan
 baseDefinition: "http://hl7.org/fhir/StructureDefinition/CarePlan"
 derivation: constraint
-title: 'US Core CarePlan Profile 2'
+title: 'US Core CarePlan Profile'
 experimental: false
 date: "2021-03-23"
 publisher: "US Core"
