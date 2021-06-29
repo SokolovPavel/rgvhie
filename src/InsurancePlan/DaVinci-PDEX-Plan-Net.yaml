@@ -1,0 +1,41 @@
+description: The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information.
+
+elements:
+  meta:
+    type: Meta
+    description: Metadata about the resource.
+    elements:
+      profile: {type: canonical, collection: true, description: Profiles this resource claims to conform to. , constant : http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan }    
+  status: 
+    minItems: 1
+    type: code
+    valueset: { id: 'publication-status' }
+    description: The lifecycle status of an artifact.
+    constant: active
+  ownedBy: 
+    minItems: 1
+    type: Reference
+    description: Plan issuer.
+  administeredBy: 
+    minItems: 1
+    type: Reference
+    description: Product administrator.
+  type:
+    minItems: 1
+    type: CodeableConcept
+    valueset: { id: 'insurance-product-type' }
+    description: Product Type.
+  name:
+    type: string
+    description: Official name.
+  alias:
+    type: string
+    collection: true
+    description: Alternate names.
+  period:
+    type: Period
+    description: When the product is available.    
+  network: 
+    type: Reference
+    collection: true
+    description: What networks are Included.

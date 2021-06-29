@@ -1,0 +1,65 @@
+description: A Location is the physical place where healthcare services are provided, practitioners are employed, organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area.
+
+elements:
+  meta:
+    type: Meta
+    description: Metadata about the resource.
+    elements:
+      profile: {type: canonical, collection: true, description: Profiles this resource claims to conform to. , constant : http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location }    
+  extension:
+    collection: true
+    type: Extension
+    minItems: 1
+    description: Additional content defined by implementations.
+    elements:
+      url: {type: uri, required: true, description: identifies the meaning of the extension}
+      value[x]: {type: CodeableConcept, required: true, description: Value of extension}
+  identifier:
+    collection: true
+    type: Identifier
+    description: Identifies this location across multiple systems.
+    elements:
+      system: {type: uri, description: The namespace for the identifier value  }
+      value: {type: string, description: The value that is unique }
+      type: {type: CodeableConcept, valueset: { id: 'identifier-type' }, description: Description of identifier } 
+  status: 
+    minItems: 1
+    type: code
+    valueset: { id: 'location-status' }
+    description: Indicates whether the location is still in use.
+  name:
+    minItems: 1
+    type: string
+    description: Name of the location as used by humans
+  description:
+    type: string
+    description: Additional details about the location that could be displayed as further information to identify the location beyond its name
+  address:
+    collection: true
+    type: Address
+    description: An address for the organization.
+    elements:
+      type: {type: code, description: The type of an address, valueset: { id: 'address-type' }, constant : physical} 
+      line: {type: string, collection: true, maxItems: 4, description: Street name, number, direction & P.O. Box etc. }
+      city: {type: string, description: Name of city, town etc. }
+      state: {type: string, description: Sub-unit of country. }
+      postalCode: {type: string, description: US Zip Codes. }
+  telecom:
+    collection: true
+    type: ContactPoint
+    description: Contact details of the location.
+    elements:
+      value: {string: code, description: The actual contact point details} 
+      system: {type: code, description: Telecommunications form for contact point., valueset: { id: 'contact-point-system' } }
+  hoursOfOperation:
+    collection: true
+    type: BackboneElement
+    description: What days/times during a week is this location usually open.
+    elements:
+      daysOfWeek: {type: code, collection: true, description: The days of the week., valueset: { id: 'days-of-week' }} 
+      allDay: {type: boolean, description: The Location is open all day. }
+      openingTime: {type: time, description: Time that the Location opens. }
+      closingTime: {type: time, description: Time that the Location closes. }
+  availabilityExceptions:
+    type: string
+    description: Description of availability exceptions

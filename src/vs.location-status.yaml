@@ -1,0 +1,2 @@
+system: http://hl7.org/fhir/location-status
+description: Indicates whether the location is still in use.

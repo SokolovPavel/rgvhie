@@ -1,0 +1,2 @@
+system: http://hl7.org/fhir/address-type
+description: The type of an address (physical / postal).

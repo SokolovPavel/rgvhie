@@ -1,0 +1,4 @@
+code, display, definition
+postal, Postal, Mailing addresses - PO Boxes and care-of addresses.
+physical, Physical, A physical address that can be visited.
+both, Postal & Physical, An address that is both physical and postal.

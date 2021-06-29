@@ -1,0 +1,74 @@
+description: The HealthCareService resource typically describes services offered by an organization/practitioner at a location. The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, hospital and ambulatory care, home care, long-term care, and other health-related and community services.
+
+elements:
+  meta:
+    type: Meta
+    description: Metadata about the resource.
+    elements:
+      profile: {type: canonical, collection: true, description: Profiles this resource claims to conform to. , constant : http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService }    
+  extension:
+    collection: true
+    type: Extension
+    minItems: 1
+    description: Additional content defined by implementations.
+    elements:
+      url: {type: uri, required: true, description: identifies the meaning of the extension}
+      extension:
+        type: Extension
+        elements:
+           url: {type: uri, required: true, description: identifies the meaning of the extension, constant : type}
+           value[x]: {type: CodeableConcept, required: true, description: Value of extension}  
+  active: 
+    minItems: 1
+    type: boolean
+    description: Whether this HealthcareService record is in active use.
+    constant: true
+  providedBy: 
+    type: Reference
+    description: Organization that provides this service.
+  location: 
+    collection: true
+    type: Reference
+    description: Location(s) where service may be provided.
+  name:
+    type: string
+    description: Description of service as presented to a consumer while searching
+  category:
+    minItems: 1
+    type: CodeableConcept
+    valueset: { id: 'healthcare-service-category' }
+    description: Broad category of service being performed or delivered.
+  type:
+    collection: true
+    type: CodeableConcept
+    valueset: { id: 'service-type' }
+    description: Type of service that may be delivered or performed.
+  characteristic:
+    collection: true
+    type: CodeableConcept
+    valueset: { id: 'healthcare-service-characteristic' }
+    description: Collection of characteristics (attributes).
+  program:
+    collection: true
+    type: CodeableConcept
+    valueset: { id: 'healthcare-service-program' }
+    description: Programs that this service is applicable to.
+  availableTime:
+    collection: true
+    type: BackboneElement
+    description: Times the Service Site is available.  
+    elements:
+      daysOfWeek: {type: code, collection: true, description: The days of the week., valueset: { id: 'days-of-week' }} 
+      allDay: {type: boolean, description: Always available. }
+      availableStartTime: {type: time, description: Opening time of day (ignored if allDay = true). }
+      availableEndTime: {type: time, description: Closing time of day (ignored if allDay = true). }
+  telecom:
+    collection: true
+    type: ContactPoint
+    description: Contacts related to the healthcare service.
+    elements:
+      value: {string: code, description: The actual contact point details} 
+      system: {type: code, description: Telecommunications form for contact point., valueset: { id: 'contact-point-system'}}
+  availabilityExceptions:
+    type: string
+    description: Description of availability exceptions

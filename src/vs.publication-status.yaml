@@ -1,0 +1,2 @@
+system: http://hl7.org/fhir/publication-status
+description: The lifecycle status of an artifact.

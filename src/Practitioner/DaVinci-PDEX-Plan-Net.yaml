@@ -1,0 +1,55 @@
+description: Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare.
+
+elements:
+  meta:
+    type: Meta
+    description: Metadata about the resource.
+    elements:
+      profile: {type: canonical, collection: true, description: Profiles this resource claims to conform to. , constant : http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition-plannet-Practitioner.html }    
+  extension:
+    collection: true
+    type: Extension
+    description: Additional content defined by implementations.
+    elements:
+      url: {type: uri, required: true, description: identifies the meaning of the extension  }
+      value[x]:  {description: Value of extension } 
+  identifier:
+    collection: true
+    minItems: 1
+    type: Identifier
+    description: An identifier that applies to this person in this role.
+    elements:
+      system: {type: uri, required: true, description: The namespace for the identifier value  }
+      value:  {type: string, required: true, description: The value that is unique }
+      type: {type: CodeableConcept, valueset: { id: 'identifier-type' }, description: Description of identifier }    
+  active: 
+    minItems: 1
+    type: boolean
+    description: Whether this practitioner's record is in active use.
+  name:
+    collection: true
+    minItems: 1
+    type: HumanName
+    description: A name associated with the patient
+    rule:
+      r1: 'family.count() + given.count() >= 1'
+    elements: { family: {type: string, required: true}, given: {type: string, collection: true}}
+  gender:
+    type: code
+    valueset: { id: 'administrative-gender' }
+    description: The gender of a person used for administrative purposes.
+  birthDate:
+    type: date
+    description: The date on which the practitioner was born.
+  qualification:
+    collection: true
+    type: BackboneElement
+    description: Certification, licenses, or training pertaining to the provision of care
+    elements:
+      code: {type: CodeableConcept, required: true,  valueset: { id: 'individual-specialty-and-degree-license-certificate' }, description: Coded representation of the qualification. }
+      issuer:  {type: Reference, description: Organization that regulates and issues the qualification. }
+  communication:
+    collection: true
+    type: CodeableConcept
+    valueset: { id: 'languages' }
+    description: A language the practitioner can use in patient communication

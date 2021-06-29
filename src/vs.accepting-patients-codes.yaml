@@ -1,0 +1,2 @@
+system: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS
+description: Codes to identify if the practice is accepting new patients.

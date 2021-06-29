@@ -1,0 +1,4 @@
+code, display, definition
+active, Active, The location is operational.
+suspended, Suspended, The location is temporarily closed.
+inactive, Inactive, The location is no longer used.

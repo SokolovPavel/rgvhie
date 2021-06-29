@@ -1,0 +1,48 @@
+description: PractitionerRole describes the role a practitioner plays at an organization, including the services they provide, the location(s) where they work, and their availability, electronic endpoints, and other relevant information.
+
+elements:
+  meta:
+    type: Meta
+    description: Metadata about the resource.
+    elements:
+      profile: {type: canonical, collection: true, description: Profiles this resource claims to conform to. , constant : http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition-plannet-PractitionerRole.html }    
+  extension:
+    collection: true
+    type: Extension
+    description: Additional content defined by implementations.
+    elements:
+      url: {type: uri, required: true, description: identifies the meaning of the extension}
+      value[x]: {description: Value of extension}  
+      extension:
+        type: Extension
+        elements:
+           url: {type: uri, required: true, description: identifies the meaning of the extension}
+           value[x]: {required: true, description: Value of extension}  
+  active: 
+    minItems: 1
+    type: boolean
+    description: Whether this practitioner role record is in active use.
+    constant: true
+  practitioner: 
+    type: Reference
+    description: Practitioner that is able to provide the defined services for the organization.
+  code: 
+    collection: true
+    valueset: { id: 'provider-type' }
+    type: CodeableConcept
+    description: Roles which this practitioner may perform. 
+  organization: 
+    type: Reference
+    description: Organization where the roles are available.
+  location: 
+    type: Reference
+    description: The location(s) at which this practitioner provides care.
+  availableTime:
+    collection: true
+    type: BackboneElement
+    description: Times the Service Site is available.  
+    elements:
+      daysOfWeek: {type: code, collection: true, description: The days of the week. , valueset: { id: 'days-of-week' }} 
+      allDay: {type: boolean, description: Always available. }
+      availableStartTime: {type: time, description: Opening time of day (ignored if allDay = true). }
+      availableEndTime: {type: time, description: Closing time of day (ignored if allDay = true). }
