@@ -52,10 +52,10 @@ elements:
     collection: true
     description: When allergy or intolerance was identified
     elements:
-      onsetDateTime:{type: dateTime	}
-      onsetAge:	{type: Age	}
+      onsetDateTime:{type: dateTime}
+      onsetAge: {type: Age}
       onsetPeriod: {type: Period}
-      onsetRange: {type: Range}	
+      onsetRange: {type: Range}
       onsetString: {type: string}
   clinicalStatus:
     description: active | inactive | resolved
@@ -65,20 +65,20 @@ elements:
       concepts:
         - code: active
           display: Active 
-          definition: The subject is currently experiencing, or is at risk of, a reaction to the identified substance.	~active
+          definition: The subject is currently experiencing, or is at risk of, a reaction to the identified substance.
         - code: inactive
           display: Inactive
-          definition: The subject is no longer at risk of a reaction to the identified substance.	~inactive
+          definition: The subject is no longer at risk of a reaction to the identified substance.
         - code: resolved
           display: Resolved
           path: [inactive]
-          definition: A reaction to the identified substance has been clinically reassessed by testing or re-exposure and is considered no longer to be present. Re-exposure could be accidental, unplanned, or outside of any clinical setting.	~resolved
+          definition: A reaction to the identified substance has been clinically reassessed by testing or re-exposure and is considered no longer to be present. Re-exposure could be accidental, unplanned, or outside of any clinical setting.
   reaction:
     collection: true
       manifestation:
         required: true
         valueset: {id: 'fhir:clinical-findings' }
-      onset:		{type:	dateTime, description: 	Date(/time) when manifestations showed}
+      onset: {type:dateTime, description: Date(/time) when manifestations showed}
       severity:
         description: mild | moderate | severe
         valueset: {id: 'fhir:reaction-event-severity'}
