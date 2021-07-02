@@ -18,22 +18,13 @@ date: "2021-03-23"
 publisher: "US Core"
 
 elements:
-  status:
-    requred: true
-    valueset: { id: observation-smoking-status-status }
-  code:
-    required: true
-    valueset:
-      id: smoking-status-observation-codes
-      concepts:
-        - code: 72166-2
-          system: http://loinc.org
-          display: Tobacco smoking status NHIS
+  identifier:
+    elements:
+      system:
+      value:
   subject: { required: true, refs: [ /Patient ]}
-  issued: { required: true}
-  value:
-    required: true
-    union: [CodeableConcept]
-    CodeableConcept:
-      description: Smoking Status VS
-      valueset: {id: observation-smokingstatus}
+  code:
+  status:
+  effective: 
+  performer:
+  device:

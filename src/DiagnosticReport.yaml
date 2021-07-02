@@ -1,0 +1,22 @@
+name: "DiagnosticReport"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: DiagnosticReport
+baseDefinition: "https://www.hl7.org/fhir/diagnosticreport.html"
+derivation: constraint
+title: 'DiagnosticReport Profile'
+date: "2021-03-23"
+
+elements:
+  subject:
+  identifier:
+    elements:
+      system:
+      value:
+  code:
+  status:
+  effective:
+  performer:
+  result:

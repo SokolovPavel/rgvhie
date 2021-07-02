@@ -1,0 +1,31 @@
+name: "MedicationStatement"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: MedicationStatement
+baseDefinition: "https://www.hl7.org/fhir/medicationstatement.html"
+derivation: constraint
+title: 'MedicationStatement'
+experimental: false
+date: "2021-03-23"
+
+elements:
+  subject:
+    type: Reference
+    description: Who is/was taking the medication
+  identifier:
+    collection: true
+    minItems: 0
+    description: Unique code or number identifying the location to its users
+  status:
+    type: code
+    description: active | completed | entered-in-error | intended | stopped | on-hold | unknown | not-taken
+  informationSource:
+    type: Reference
+  medication:
+    type: Reference
+  reasonReference:
+    type: Reference
+  dosage:
+    type: Dosage

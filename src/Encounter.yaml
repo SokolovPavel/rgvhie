@@ -12,30 +12,27 @@ abstract: false
 type: Encounter
 baseDefinition: "http://hl7.org/fhir/StructureDefinition/Encounter"
 derivation: constraint
-title: 'US Core Encounter Profile'
-experimental: false
-date: "2021-03-23"
-publisher: "US Core"
+title: 'Encounter'
 
 elements:
   identifier:
     elements:
-      system: {}
-      value: {}
-  status: {}
+      system:
+      value:
+  status:
   class: {}
-  type: { valueset: {id: encounter-type} }
+  type: { valueset: {id: us-core-encounter-type} }
   subject: { refs: [ /Patient ] }
+  priority:
   participant:
     elements:
       type: {}
-      period: {}
       individual: { refs: [ /Practitioner ]}
   period: {}
-  reasonCode: {}
-  hospitalization:
+  diagnosis:
     elements:
-      dischargeDisposition: {}
+      condition:
+  text:
   location:
     elements:
       location: { refs: [ /Location ]}

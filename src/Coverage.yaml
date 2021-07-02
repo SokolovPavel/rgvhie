@@ -1,0 +1,20 @@
+name: "Coverage"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: Coverage
+baseDefinition: "https://www.hl7.org/fhir/coverage.html"
+derivation: constraint
+title: 'Coverage Profile'
+date: "2021-03-23"
+
+elements:
+  identifier:
+    elements:
+      system:
+      value:
+  status:
+  text:
+  payor:
+  

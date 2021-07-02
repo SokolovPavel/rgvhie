@@ -1,0 +1,19 @@
+name: "Medication"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: MedicationStatement
+baseDefinition: "http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html"
+derivation: constraint
+title: 'US Core AllergyIntolerance Profile'
+experimental: false
+date: "2021-03-23"
+publisher: "US Core"
+
+elements:
+  code:
+    type: CodeableConcept
+  manufacturer:
+    type: Reference
+  

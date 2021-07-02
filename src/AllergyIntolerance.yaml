@@ -21,42 +21,16 @@ elements:
   code:
     required: true
     valueset: { id: 'allergy-substance' }
-  identifier:
-    minItems: 0
-    elements:
-      system: { required: true }
-      value:  { required: true, description: The value that is unique within the system }
   patient:
     required: true
     refers:
       - resourceType: Patient
         profile: us-core:Patient
-  verificationStatus:
-    description: unconfirmed | confirmed | refuted | entered-in-error
-    valueset: { id: 'fhir:allergyintolerance-verification' }
-  recordedDate: 
-    type: DateTime
-    description: Date first version of the resource instance was recorded
+  recordedDate:
   recorder:
-    required: false
-    refers:
-      - resourceType: Practitioner
-        profile: us-core:Practitioner
   category:
-    description: food | medication | environment | biologic
-    valueset: { id: 'fhir:allergy-intolerance-category' }
   type:
-    description: allergy | intolerance
-    valueset: { id: 'fhir:allergy-intolerance-type' }
   onset:
-    collection: true
-    description: When allergy or intolerance was identified
-    elements:
-      onsetDateTime:{type: dateTime}
-      onsetAge: {type: Age}
-      onsetPeriod: {type: Period}
-      onsetRange: {type: Range}
-      onsetString: {type: string}
   clinicalStatus:
     description: active | inactive | resolved
     valueset:
@@ -65,28 +39,25 @@ elements:
       concepts:
         - code: active
           display: Active 
-          definition: The subject is currently experiencing, or is at risk of, a reaction to the identified substance.
+          definition: The subject is currently experiencing, or is at risk of, a reaction to the identified substance.	~active
         - code: inactive
           display: Inactive
-          definition: The subject is no longer at risk of a reaction to the identified substance.
+          definition: The subject is no longer at risk of a reaction to the identified substance.	~inactive
         - code: resolved
           display: Resolved
           path: [inactive]
-          definition: A reaction to the identified substance has been clinically reassessed by testing or re-exposure and is considered no longer to be present. Re-exposure could be accidental, unplanned, or outside of any clinical setting.
+          definition: A reaction to the identified substance has been clinically reassessed by testing or re-exposure and is considered no longer to be present. Re-exposure could be accidental, unplanned, or outside of any clinical setting.	~resolved
   reaction:
     collection: true
+    type: BackboneElement
     elements:
-      manifestation:
-        required: true
-        valueset: {id: 'fhir:clinical-findings' }
-      onset: {type:dateTime, description: Date(/time) when manifestations showed}
-      severity:
-        description: mild | moderate | severe
-        valueset: {id: 'fhir:reaction-event-severity'}
-api:
-  search:
-    params:
-      patient:
-        required: true
-    combo:
-    - params: [patient,clinical-status]
+      manifestation: {type: code, required: true, valueset: {id: 'fhir:clinical-findings' }}
+      onset: {type: dateTime, description: Date(/time) when manifestations showed}
+      severity: {type: code, valueset: { id: 'fhir:reaction-event-severity'}, description: mild | moderate | severe}
+  criticality:
+  verificationStatus:
+    description: unconfirmed | confirmed | refuted | entered-in-error
+    valueset: { id: 'fhir:allergyintolerance-verification' }
+
+  
+  

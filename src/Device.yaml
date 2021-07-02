@@ -1,0 +1,23 @@
+name: "Device"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: Device
+baseDefinition: "http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html"
+derivation: constraint
+title: 'Device'
+
+elements:
+  identifier:
+    collection: true
+    minItems: 0
+    description: Unique code or number identifying the location to its users
+  manufacturer:
+  version:
+    elements:
+      type:
+      component:
+      value:
+  type:
+  owner:

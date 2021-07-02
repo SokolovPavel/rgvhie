@@ -1,0 +1,16 @@
+name: "PractitionerRole"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: PractitionerRole
+baseDefinition: "https://www.hl7.org/fhir/practitionerrole.html"
+derivation: constraint
+title: 'PractitionerRole Profile'
+date: "2021-03-23"
+
+elements:
+  code:
+  organization: 
+    type: Reference
+  practitioner:

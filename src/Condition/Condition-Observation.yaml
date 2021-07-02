@@ -18,10 +18,15 @@ date: "2021-03-23"
 publisher: "US Core"
 
 elements:
-  clinicalStatus:
-    valueset: {id: 'fhir:condition-clinical'}
-  verificationStatus:
-    valueset: {id: 'fhir:condition-ver-status' }
+  subject:
+    required: true
+    refers:
+    - resourceType: Patient
+      profile: us-core
+  identifier:
+    elements:
+      system:
+      value:
   category:
     minItems: 1
     valueset:
@@ -31,23 +36,12 @@ elements:
        - code: problem-list-item
          displaY: Problem List
          definition: Item	An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.
-       - code: encounter-diagnosis
-         display: Encounter
-         definition: Diagnosis	A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.
-       - code: health-concern
-         display: Health Concern
-         definition: Additional health concerns from other stakeholders which are outside the provider’s problem list.
   code:
     required: true
     valueset: { id: us-core-problem } 
-  subject:
-    required: true
-    refers:
-    - resourceType: Patient
-      profile: us-core
-
-api:
-  search:
-    params:
-      patient:
-        required: true
+  onset:
+  abatement:
+  clinicalStatus:
+    valueset: {id: 'fhir:condition-clinical'}
+  asserter:
+  recordedDate: 

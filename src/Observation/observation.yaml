@@ -1,0 +1,41 @@
+description: |
+  This profile sets minimum expectations for the Observation resource to record,
+  search and fetch smoking status data associated with a patient. It identifies
+  which core elements, extensions, vocabularies and value sets SHALL be present
+  in the resource when using this profile.
+
+name: "Observation"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: Observation
+baseDefinition: "http://hl7.org/fhir/StructureDefinition/Observation"
+derivation: constraint
+title: 'US Core Observation Profile'
+experimental: false
+date: "2021-03-23"
+publisher: "US Core"
+
+elements:
+  identifier:
+    elements:
+      system:
+      value:
+  subject: { required: true, refs: [ /Patient ]}
+  code:
+  status:
+  effective:
+  bodySite:
+  dataAbsentReason:
+  value:
+  performer:
+  method:
+  issued:
+  interpretation:
+  referenceRange:
+    elements:
+      low:
+      high:
+      type:
+      text:

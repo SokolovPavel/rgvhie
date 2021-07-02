@@ -1,0 +1,34 @@
+name: "Immunization"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: Immunization
+baseDefinition: "https://www.hl7.org/fhir/device.html"
+derivation: constraint
+title: 'US Core Immunization Profile'
+experimental: false
+date: "2021-03-23"
+publisher: "US Core"
+
+elements:
+  patient:
+    type: Reference
+  identifier:
+    collection: true
+    minItems: 0
+    description: Unique code or number identifying the location to its users
+  status:
+  occurrence:
+  vaccineCode:
+  lotNumber:
+  manufacturer:
+  performer:
+    type: CodeableConcept
+  primarySource:
+  site:
+  route:
+  doseQuantity:
+  reasonCode:
+  reaction:
+    type: Reference

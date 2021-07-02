@@ -1,0 +1,45 @@
+name: "Location"
+status: active
+fhirVersion: '4.0.1'
+kind: resource
+abstract: false
+type: Location
+baseDefinition: "http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html"
+derivation: constraint
+title: 'US Core Location Profile'
+experimental: false
+date: "2021-03-23"
+publisher: "US Core"
+
+elements:
+  identifier:
+    collection: true
+    minItems: 0
+    description: Unique code or number identifying the location to its users
+  name:
+    required: true
+    type: string
+    description: Name of the location as used by humans
+  telecom:
+    collection: true
+    minItems: 0
+    description: Contact details of the location
+  address:
+    type: Address
+    description: Physical location
+    elements:
+      line:
+        type: string
+        description: Street name, number, direction & P.O. Box etc.
+      city:
+        type: string
+        description: Name of city, town etc.
+      state:
+        type: string
+        description: Sub-unit of country
+      postalCode: 
+        type: string
+        description: US Zip Codes
+  managingOrganization:
+    description: Organization responsible for provisioning and upkeep
+    type: Reference

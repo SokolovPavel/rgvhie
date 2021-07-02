@@ -9,26 +9,13 @@ type: Practitioner
 baseDefinition: "http://hl7.org/fhir/StructureDefinition/Practitioner"
 derivation: constraint
 title: 'US Core Practitioner Profile'
-experimental: false
 date: "2021-03-23"
-publisher: "US Core"
 
 elements:
-  id:
-    type: id
-    description: Назначается сервером
-  meta:
-    elements:
-      source:
-        description: Export source
-
   identifier:
-    type: Identifier
-    description: Идентификатор Врача
-  address:
-    description: Адрес проживания
-  name:
-    description: Имя Врача.
     elements:
-      family: {}
-      given: {}
+      system:
+      value:
+  name:
+  address:
+  telecom:
