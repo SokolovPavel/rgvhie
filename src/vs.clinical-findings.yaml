@@ -1,0 +1,2 @@
+system: http://snomed.info/sct
+description: This value set has >1000 codes in it. In order to keep the publication size manageable, only a selection (1000 codes) of the whole set of codes is shown. All codes from system http://snomed.info/sct

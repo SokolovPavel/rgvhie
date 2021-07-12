@@ -34,7 +34,7 @@ elements:
   clinicalStatus:
     description: active | inactive | resolved
     valueset:
-      id: 'fhir:allergyintolerance-clinical'
+      id: 'allergyintolerance-clinical'
       system: us-core:us-core-allergy-substance
       concepts:
         - code: active
@@ -51,13 +51,13 @@ elements:
     collection: true
     type: BackboneElement
     elements:
-      manifestation: {type: code, required: true, valueset: {id: 'fhir:clinical-findings' }}
+      manifestation: {type: code, required: true, valueset: {id: 'clinical-findings' }}
       onset: {type: dateTime, description: Date(/time) when manifestations showed}
-      severity: {type: code, valueset: { id: 'fhir:reaction-event-severity'}, description: mild | moderate | severe}
+      severity: {type: code, valueset: { id: 'reaction-event-severity'}, description: mild | moderate | severe}
   criticality:
   verificationStatus:
     description: unconfirmed | confirmed | refuted | entered-in-error
-    valueset: { id: 'fhir:allergyintolerance-verification' }
+    valueset: { id: 'allergyintolerance-verification' }
 
   
   

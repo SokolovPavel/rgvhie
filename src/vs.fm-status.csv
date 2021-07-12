@@ -1,0 +1,5 @@
+code, display, definition
+active, Active, The instance is currently in-force.
+cancelled, Cancelled, The instance is withdrawn, rescinded or reversed.
+draft, Draft, A new instance the contents of which is not complete.
+entered-in-error, Entered in Error, The instance was entered in error.

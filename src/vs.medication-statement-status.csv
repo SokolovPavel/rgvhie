@@ -1,0 +1,9 @@
+code, display, definition
+active, Active, The medication is still being taken.
+completed, Completed, The medication is no longer being taken.
+entered-in-error, Entered in Error, Some of the actions that are implied by the medication statement may have occurred. For example, the patient may have taken some of the medication. Clinical decision support systems should take this status into account.
+intended, Intended, The medication may be taken at some time in the future.
+stopped, Stopped, Actions implied by the statement have been permanently halted, before all of them occurred. This should not be used if the statement was entered in error.
+on-hold, On Hold, Actions implied by the statement have been temporarily halted, but are expected to continue later. May also be called 'suspended'.
+unknown, Unknown, The state of the medication use is not currently known.
+not-taken, Not Taken, The medication was not consumed by the patient

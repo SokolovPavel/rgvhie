@@ -33,10 +33,10 @@ elements:
   telecom:
     elements:
       value:  { required: true }
-      system: { required: true,  valueset: {id: 'fhir:contact-point-system' }}
+      system: { required: true,  valueset: {id: 'contact-point-system' }}
   managingOrganization:
   name:
-  gender: { valueset: { id: 'fhir:administrative-gender' } }
+  gender: { valueset: { id: 'administrative-gender' } }
   birthDate:
   maritalStatus:
   communication:

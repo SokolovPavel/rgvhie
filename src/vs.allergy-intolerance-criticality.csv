@@ -1,0 +1,4 @@
+code, display, definition
+low, Low Risk, Worst case result of a future exposure is not assessed to be life-threatening or having high potential for organ system failure.
+high, High Risk, Worst case result of a future exposure is assessed to be life-threatening or having high potential for organ system failure.
+unable-to-assess, Unable to Assess Risk, Unable to assess the worst case result of a future exposure.
