@@ -1,6 +1,5 @@
-id: us-core
+id: cda2fhir
 prefix: ''
-title: FHIR US-Core
+title: CDA2FHIR
 url: https://healthsamurai.github.io/rgvhie
-description: US Core Implementation Guide R4
 fhir: 4.0.0

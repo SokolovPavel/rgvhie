@@ -1,2 +1,2 @@
 system: https://www.hl7.org/fhir/valueset-allergyintolerance-code
-derivation: constraint
+description: This value set contains 3016 concepts. All codes from system http://snomed.info/sct. But only first 1000 are present here
