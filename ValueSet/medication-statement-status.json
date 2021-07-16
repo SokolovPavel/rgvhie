@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "medication-statement-status",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/medication-statement-status",
+  "name" : "MedicationStatementStatus",
+  "title" : "medication statement status",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:28Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+      "concept" : [ {
+        "code" : "active",
+        "display" : "Active",
+        "definition" : "The medication is still being taken."
+      }, {
+        "code" : "completed",
+        "display" : "Completed",
+        "definition" : "The medication is no longer being taken."
+      }, {
+        "code" : "entered-in-error",
+        "display" : "Entered in Error",
+        "definition" : "Some of the actions that are implied by the medication statement may have occurred. For example"
+      }, {
+        "code" : "intended",
+        "display" : "Intended",
+        "definition" : "The medication may be taken at some time in the future."
+      }, {
+        "code" : "stopped",
+        "display" : "Stopped",
+        "definition" : "Actions implied by the statement have been permanently halted"
+      }, {
+        "code" : "on-hold",
+        "display" : "On Hold",
+        "definition" : "Actions implied by the statement have been temporarily halted"
+      }, {
+        "code" : "unknown",
+        "display" : "Unknown",
+        "definition" : "The state of the medication use is not currently known."
+      }, {
+        "code" : "not-taken",
+        "display" : "Not Taken",
+        "definition" : "The medication was not consumed by the patient"
+      } ]
+    } ]
+  }
+}

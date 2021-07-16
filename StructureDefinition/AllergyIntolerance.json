@@ -1,0 +1,123 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "AllergyIntolerance",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/AllergyIntolerance",
+  "name" : "AllergyIntolerance",
+  "title" : "US Core AllergyIntolerance Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "This profile sets minimum expectations for the AllergyIntolerance resource to record,\nsearch and fetch allergies/adverse reactions associated with a patient.\nIt identifies the mandatory core elements, extensions, vocabularies and value sets\nwhich SHALL be present in the AllergyIntolerance resource when using this profile.\n",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "AllergyIntolerance",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "AllergyIntolerance.code",
+      "path" : "AllergyIntolerance.code",
+      "mustSupport" : true,
+      "min" : 1,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergy-substance",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "AllergyIntolerance.patient",
+      "path" : "AllergyIntolerance.patient",
+      "mustSupport" : true,
+      "min" : 1,
+      "type" : [ {
+        "code" : "Reference",
+        "targetProfile" : [ "https://healthsamurai.github.io/rgvhie/StructureDefinition/Patient-us-core:Patient" ]
+      } ]
+    }, {
+      "id" : "AllergyIntolerance.recordedDate",
+      "path" : "AllergyIntolerance.recordedDate",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.recorder",
+      "path" : "AllergyIntolerance.recorder",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.category",
+      "path" : "AllergyIntolerance.category",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.type",
+      "path" : "AllergyIntolerance.type",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.onset",
+      "path" : "AllergyIntolerance.onset",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.clinicalStatus",
+      "path" : "AllergyIntolerance.clinicalStatus",
+      "mustSupport" : true,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergyintolerance-clinical",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "AllergyIntolerance.reaction",
+      "path" : "AllergyIntolerance.reaction",
+      "mustSupport" : true,
+      "min" : 0,
+      "max" : "*",
+      "type" : [ {
+        "code" : "BackboneElement"
+      } ]
+    }, {
+      "id" : "AllergyIntolerance.reaction.manifestation",
+      "path" : "AllergyIntolerance.reaction.manifestation",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "code"
+      } ],
+      "min" : 1,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/clinical-findings",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "AllergyIntolerance.reaction.onset",
+      "path" : "AllergyIntolerance.reaction.onset",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "dateTime"
+      } ]
+    }, {
+      "id" : "AllergyIntolerance.reaction.severity",
+      "path" : "AllergyIntolerance.reaction.severity",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "code"
+      } ],
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/reaction-event-severity",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "AllergyIntolerance.criticality",
+      "path" : "AllergyIntolerance.criticality",
+      "mustSupport" : true
+    }, {
+      "id" : "AllergyIntolerance.verificationStatus",
+      "path" : "AllergyIntolerance.verificationStatus",
+      "mustSupport" : true,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergyintolerance-verification",
+        "strength" : "extensible",
+        "description" : null
+      }
+    } ]
+  }
+}

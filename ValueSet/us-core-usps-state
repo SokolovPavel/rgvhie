@@ -1,0 +1,201 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "us-core-usps-state",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/us-core-usps-state",
+  "name" : "UsCoreUspsState",
+  "title" : "us core usps state",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "https://www.usps.com/",
+      "concept" : [ {
+        "code" : "AL",
+        "display" : "Alabama"
+      }, {
+        "code" : "AK",
+        "display" : "Alaska"
+      }, {
+        "code" : "AS",
+        "display" : "American Samoa"
+      }, {
+        "code" : "AZ",
+        "display" : "Arizona"
+      }, {
+        "code" : "AR",
+        "display" : "Arkansas"
+      }, {
+        "code" : "CA",
+        "display" : "California"
+      }, {
+        "code" : "CO",
+        "display" : "Colorado"
+      }, {
+        "code" : "CT",
+        "display" : "Connecticut"
+      }, {
+        "code" : "DE",
+        "display" : "Delaware"
+      }, {
+        "code" : "DC",
+        "display" : "District of Columbia"
+      }, {
+        "code" : "FM",
+        "display" : "Federated States of Micronesia"
+      }, {
+        "code" : "FL",
+        "display" : "Florida"
+      }, {
+        "code" : "GA",
+        "display" : "Georgia"
+      }, {
+        "code" : "GU",
+        "display" : "Guam"
+      }, {
+        "code" : "HI",
+        "display" : "Hawaii"
+      }, {
+        "code" : "ID",
+        "display" : "Idaho"
+      }, {
+        "code" : "IL",
+        "display" : "Illinois"
+      }, {
+        "code" : "IN",
+        "display" : "Indiana"
+      }, {
+        "code" : "IA",
+        "display" : "Iowa"
+      }, {
+        "code" : "KS",
+        "display" : "Kansas"
+      }, {
+        "code" : "KY",
+        "display" : "Kentucky"
+      }, {
+        "code" : "LA",
+        "display" : "Louisiana"
+      }, {
+        "code" : "ME",
+        "display" : "Maine"
+      }, {
+        "code" : "MH",
+        "display" : "Marshall Islands"
+      }, {
+        "code" : "MD",
+        "display" : "Maryland"
+      }, {
+        "code" : "MA",
+        "display" : "Massachusetts"
+      }, {
+        "code" : "MI",
+        "display" : "Michigan"
+      }, {
+        "code" : "MN",
+        "display" : "Minnesota"
+      }, {
+        "code" : "MS",
+        "display" : "Mississippi"
+      }, {
+        "code" : "MO",
+        "display" : "Missouri"
+      }, {
+        "code" : "MT",
+        "display" : "Montana"
+      }, {
+        "code" : "NE",
+        "display" : "Nebraska"
+      }, {
+        "code" : "NV",
+        "display" : "Nevada"
+      }, {
+        "code" : "NH",
+        "display" : "New Hampshire"
+      }, {
+        "code" : "NJ",
+        "display" : "New Jersey"
+      }, {
+        "code" : "NM",
+        "display" : "New Mexico"
+      }, {
+        "code" : "NY",
+        "display" : "New York"
+      }, {
+        "code" : "NC",
+        "display" : "North Carolina"
+      }, {
+        "code" : "ND",
+        "display" : "North Dakota"
+      }, {
+        "code" : "MP",
+        "display" : "Northern Mariana Islands"
+      }, {
+        "code" : "OH",
+        "display" : "Ohio"
+      }, {
+        "code" : "OK",
+        "display" : "Oklahoma"
+      }, {
+        "code" : "OR",
+        "display" : "Oregon"
+      }, {
+        "code" : "PW",
+        "display" : "Palau"
+      }, {
+        "code" : "PA",
+        "display" : "Pennsylvania"
+      }, {
+        "code" : "PR",
+        "display" : "Puerto Rico"
+      }, {
+        "code" : "RI",
+        "display" : "Rhode Island"
+      }, {
+        "code" : "SC",
+        "display" : "South Carolina"
+      }, {
+        "code" : "SD",
+        "display" : "South Dakota"
+      }, {
+        "code" : "TN",
+        "display" : "Tennessee"
+      }, {
+        "code" : "TX",
+        "display" : "Texas"
+      }, {
+        "code" : "UT",
+        "display" : "Utah"
+      }, {
+        "code" : "VT",
+        "display" : "Vermont"
+      }, {
+        "code" : "VI",
+        "display" : "Virgin Islands"
+      }, {
+        "code" : "VA",
+        "display" : "Virginia"
+      }, {
+        "code" : "WA",
+        "display" : "Washington"
+      }, {
+        "code" : "WV",
+        "display" : "West Virginia"
+      }, {
+        "code" : "WI",
+        "display" : "Wisconsin"
+      }, {
+        "code" : "WY",
+        "display" : "Wyoming"
+      }, {
+        "code" : "AE",
+        "display" : "Armed Forces Europe the Middle East and Canada"
+      }, {
+        "code" : "AP",
+        "display" : "Armed Forces Pacific"
+      }, {
+        "code" : "AA",
+        "display" : "Armed Forces Americas (except Canada)"
+      } ]
+    } ]
+  }
+}

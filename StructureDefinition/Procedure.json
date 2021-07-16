@@ -1,0 +1,78 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Procedure",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Procedure",
+  "name" : "Procedure",
+  "title" : "Procedure",
+  "status" : "active",
+  "description" : "An action that is or was performed on or for a patient. This can be a physical intervention like an operation, or less invasive like long term services, counseling, or hypnotherapy.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Procedure",
+  "baseDefinition" : "http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Procedure.identifier",
+      "path" : "Procedure.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.identifier.system",
+      "path" : "Procedure.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.identifier.value",
+      "path" : "Procedure.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.subject",
+      "path" : "Procedure.subject",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.performed",
+      "path" : "Procedure.performed",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.bodySite",
+      "path" : "Procedure.bodySite",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.performer",
+      "path" : "Procedure.performer",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.performer.actor",
+      "path" : "Procedure.performer.actor",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.performer.onBehalfOf",
+      "path" : "Procedure.performer.onBehalfOf",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.performer.function",
+      "path" : "Procedure.performer.function",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.status",
+      "path" : "Procedure.status",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.code",
+      "path" : "Procedure.code",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.reasonCode",
+      "path" : "Procedure.reasonCode",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.note",
+      "path" : "Procedure.note",
+      "mustSupport" : true
+    }, {
+      "id" : "Procedure.text",
+      "path" : "Procedure.text",
+      "mustSupport" : true
+    } ]
+  }
+}

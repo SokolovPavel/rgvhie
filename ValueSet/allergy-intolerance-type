@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "allergy-intolerance-type",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergy-intolerance-type",
+  "name" : "AllergyIntoleranceType",
+  "title" : "allergy intolerance type",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://hl7.org/fhir/allergy-intolerance-type",
+      "concept" : [ {
+        "code" : "allergy",
+        "display" : "Allergy",
+        "definition" : "A propensity for hypersensitive reaction(s) to a substance. These reactions are most typically type I hypersensitivity"
+      }, {
+        "code" : "intolerance",
+        "display" : "Intolerance",
+        "definition" : "A propensity for adverse reactions to a substance that is not judged to be allergic or \"allergy-like\". These reactions are typically (but not necessarily) non-immune. They are to some degree idiosyncratic and/or patient-specific (i.e. are not a reaction that is expected to occur with most or all patients given similar circumstances)."
+      } ]
+    } ]
+  }
+}

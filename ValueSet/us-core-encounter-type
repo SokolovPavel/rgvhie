@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "us-core-encounter-type",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/us-core-encounter-type",
+  "name" : "UsCoreEncounterType",
+  "title" : "us core encounter type",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://terminology.hl7.org/CodeSystem/encounter-type",
+      "concept" : [ {
+        "code" : "ADMS",
+        "display" : "Annual diabetes mellitus screening",
+        "definition" : ""
+      }, {
+        "code" : "BD/BM-clin",
+        "display" : "Bone drilling/bone marrow punction in clinic",
+        "definition" : ""
+      }, {
+        "code" : "CCS60",
+        "display" : "Infant colon screening - 60 minutes",
+        "definition" : ""
+      }, {
+        "code" : "OKI",
+        "display" : "Outpatient Kenacort injection",
+        "definition" : ""
+      } ]
+    } ]
+  }
+}

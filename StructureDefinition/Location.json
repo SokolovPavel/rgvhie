@@ -1,0 +1,83 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Location",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Location",
+  "name" : "Location",
+  "title" : "US Core Location Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "Details and position information for a physical place where services are provided and resources and participants may be stored, found, contained, or accommodated.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Location",
+  "baseDefinition" : "http://hl7.org/fhir/us/core/StructureDefinition-us-core-location.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Location.identifier",
+      "path" : "Location.identifier",
+      "mustSupport" : true,
+      "min" : 0,
+      "max" : "*"
+    }, {
+      "id" : "Location.name",
+      "path" : "Location.name",
+      "mustSupport" : true,
+      "min" : 1,
+      "type" : [ {
+        "code" : "string"
+      } ]
+    }, {
+      "id" : "Location.telecom",
+      "path" : "Location.telecom",
+      "mustSupport" : true,
+      "min" : 0,
+      "max" : "*"
+    }, {
+      "id" : "Location.address",
+      "path" : "Location.address",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "Address"
+      } ]
+    }, {
+      "id" : "Location.address.line",
+      "path" : "Location.address.line",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "string"
+      } ]
+    }, {
+      "id" : "Location.address.city",
+      "path" : "Location.address.city",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "string"
+      } ]
+    }, {
+      "id" : "Location.address.state",
+      "path" : "Location.address.state",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "string"
+      } ]
+    }, {
+      "id" : "Location.address.postalCode",
+      "path" : "Location.address.postalCode",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "string"
+      } ]
+    }, {
+      "id" : "Location.managingOrganization",
+      "path" : "Location.managingOrganization",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "Reference"
+      } ]
+    } ]
+  }
+}

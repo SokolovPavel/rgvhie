@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "administrative-gender",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/administrative-gender",
+  "name" : "AdministrativeGender",
+  "title" : "administrative gender",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://hl7.org/fhir/administrative-gender",
+      "concept" : [ {
+        "code" : "male",
+        "display" : "Male",
+        "definition" : "Male."
+      }, {
+        "code" : "female",
+        "display" : "Female",
+        "definition" : "Female."
+      }, {
+        "code" : "other",
+        "display" : "Other",
+        "definition" : "Other."
+      }, {
+        "code" : "unknown",
+        "display" : "Unknown",
+        "definition" : "Unknown."
+      } ]
+    } ]
+  }
+}

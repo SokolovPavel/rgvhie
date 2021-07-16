@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "allergyintolerance-verification",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergyintolerance-verification",
+  "name" : "AllergyintoleranceVerification",
+  "title" : "allergyintolerance verification",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:28Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+      "concept" : [ {
+        "code" : "unconfirmed",
+        "display" : "Unconfirmed",
+        "definition" : "A low level of certainty about the propensity for a reaction to the identified substance."
+      }, {
+        "code" : "confirmed",
+        "display" : "Confirmed",
+        "definition" : "A high level of certainty about the propensity for a reaction to the identified substance"
+      }, {
+        "code" : "refuted",
+        "display" : "Refuted",
+        "definition" : "A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge."
+      }, {
+        "code" : "entered-in-error",
+        "display" : "Entered in Error",
+        "definition" : "The statement was entered in error and is not valid."
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Condition-Observation",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Condition-Observation",
+  "name" : "Condition",
+  "title" : "US Core Condition Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "This profile sets minimum expectations for the Condition resource to record,\nsearch and fetch a list of problems and health concerns associated with a patient.\nIt identifies which core elements,\nextensions, vocabularies and value sets SHALL be present in the resource when using this profile.\n",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Condition",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Condition",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Condition.subject",
+      "path" : "Condition.subject",
+      "mustSupport" : true,
+      "min" : 1,
+      "type" : [ {
+        "code" : "Reference",
+        "targetProfile" : [ "https://healthsamurai.github.io/rgvhie/StructureDefinition/Patient-us-core" ]
+      } ]
+    }, {
+      "id" : "Condition.identifier",
+      "path" : "Condition.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.identifier.system",
+      "path" : "Condition.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.identifier.value",
+      "path" : "Condition.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.category",
+      "path" : "Condition.category",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.code",
+      "path" : "Condition.code",
+      "mustSupport" : true,
+      "min" : 1,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/us-core-problem",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "Condition.onset",
+      "path" : "Condition.onset",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.abatement",
+      "path" : "Condition.abatement",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.clinicalStatus",
+      "path" : "Condition.clinicalStatus",
+      "mustSupport" : true,
+      "binding" : {
+        "valueSet" : "https://healthsamurai.github.io/rgvhie/ValueSet/condition-clinical",
+        "strength" : "extensible",
+        "description" : null
+      }
+    }, {
+      "id" : "Condition.asserter",
+      "path" : "Condition.asserter",
+      "mustSupport" : true
+    }, {
+      "id" : "Condition.recordedDate",
+      "path" : "Condition.recordedDate",
+      "mustSupport" : true
+    } ]
+  }
+}

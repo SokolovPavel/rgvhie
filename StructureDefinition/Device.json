@@ -1,0 +1,52 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Device",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Device",
+  "name" : "Device",
+  "title" : "Device",
+  "status" : "active",
+  "description" : "A type of a manufactured item that is used in the provision of healthcare without being substantially changed through that activity. The device may be a medical or non-medical device.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Device",
+  "baseDefinition" : "http://hl7.org/fhir/us/core/StructureDefinition-us-core-procedure.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Device.identifier",
+      "path" : "Device.identifier",
+      "mustSupport" : true,
+      "min" : 0,
+      "max" : "*"
+    }, {
+      "id" : "Device.manufacturer",
+      "path" : "Device.manufacturer",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.version",
+      "path" : "Device.version",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.version.type",
+      "path" : "Device.version.type",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.version.component",
+      "path" : "Device.version.component",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.version.value",
+      "path" : "Device.version.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.type",
+      "path" : "Device.type",
+      "mustSupport" : true
+    }, {
+      "id" : "Device.owner",
+      "path" : "Device.owner",
+      "mustSupport" : true
+    } ]
+  }
+}

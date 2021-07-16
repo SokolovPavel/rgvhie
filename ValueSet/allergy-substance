@@ -1,0 +1,4011 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "allergy-substance",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergy-substance",
+  "name" : "AllergySubstance",
+  "title" : "allergy substance",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:28Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "https://www.hl7.org/fhir/valueset-allergyintolerance-code",
+      "concept" : [ {
+        "code" : "102002",
+        "display" : "Hemoglobin Okaloosa",
+        "definition" : ""
+      }, {
+        "code" : "120006",
+        "display" : "Ornithine racemase",
+        "definition" : ""
+      }, {
+        "code" : "125001",
+        "display" : "Ferrous sulfate Fe^59^",
+        "definition" : ""
+      }, {
+        "code" : "126000",
+        "display" : "Galactosyl-N-acetylglucosaminylgalactosylglucosylceramide alpha-galactosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "130002",
+        "display" : "Hemoglobin Hopkins-II",
+        "definition" : ""
+      }, {
+        "code" : "131003",
+        "display" : "Dolichyl-phosphate mannosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "159002",
+        "display" : "Ferrocyanide salt",
+        "definition" : ""
+      }, {
+        "code" : "164003",
+        "display" : "Phosphoenolpyruvate-protein phosphotransferase",
+        "definition" : ""
+      }, {
+        "code" : "178002",
+        "display" : "Uridyl diphosphate galactose",
+        "definition" : ""
+      }, {
+        "code" : "186002",
+        "display" : "HLA-Cw9 antigen",
+        "definition" : ""
+      }, {
+        "code" : "187006",
+        "display" : "Cyanocobalamin Co^57^",
+        "definition" : ""
+      }, {
+        "code" : "200001",
+        "display" : "Berberine",
+        "definition" : ""
+      }, {
+        "code" : "217008",
+        "display" : "Blood group antigen IH",
+        "definition" : ""
+      }, {
+        "code" : "231008",
+        "display" : "3-Hydroxyisobutyrate dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "238002",
+        "display" : "Heptachlor",
+        "definition" : ""
+      }, {
+        "code" : "261000",
+        "display" : "Codeine phosphate",
+        "definition" : ""
+      }, {
+        "code" : "296000",
+        "display" : "Coumachlor",
+        "definition" : ""
+      }, {
+        "code" : "322006",
+        "display" : "Octylphenoxy P.H. ethanol",
+        "definition" : ""
+      }, {
+        "code" : "327000",
+        "display" : "^76^Arsenic",
+        "definition" : ""
+      }, {
+        "code" : "329002",
+        "display" : "^127^Antimony",
+        "definition" : ""
+      }, {
+        "code" : "336001",
+        "display" : "Fibrinogen Tokyo II",
+        "definition" : ""
+      }, {
+        "code" : "340005",
+        "display" : "Enzyme variant",
+        "definition" : ""
+      }, {
+        "code" : "363000",
+        "display" : "Fibrinogen San Juan",
+        "definition" : ""
+      }, {
+        "code" : "370000",
+        "display" : "beta>2S< Glycoprotein",
+        "definition" : ""
+      }, {
+        "code" : "371001",
+        "display" : "Acylcarnitine hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "377002",
+        "display" : "Sparteine",
+        "definition" : ""
+      }, {
+        "code" : "392001",
+        "display" : "^151^Gadolinium",
+        "definition" : ""
+      }, {
+        "code" : "395004",
+        "display" : "Immunoglobulin pentamer",
+        "definition" : ""
+      }, {
+        "code" : "412004",
+        "display" : "Ribose-5-phosphate isomerase",
+        "definition" : ""
+      }, {
+        "code" : "424006",
+        "display" : "Citramalyl-CoA lyase",
+        "definition" : ""
+      }, {
+        "code" : "425007",
+        "display" : "Hemoglobin Nagoya",
+        "definition" : ""
+      }, {
+        "code" : "432003",
+        "display" : "Carminic acid",
+        "definition" : ""
+      }, {
+        "code" : "438004",
+        "display" : "2-Hydroxyglutarate dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "462009",
+        "display" : "Urease (ATP-hydrolysing)",
+        "definition" : ""
+      }, {
+        "code" : "472007",
+        "display" : "Vegetable textile fiber",
+        "definition" : ""
+      }, {
+        "code" : "476005",
+        "display" : "CD1b - Cluster of differentiation antigen 1b",
+        "definition" : ""
+      }, {
+        "code" : "498001",
+        "display" : "Nitrilase",
+        "definition" : ""
+      }, {
+        "code" : "501001",
+        "display" : "Blood group antibody Sf^a^",
+        "definition" : ""
+      }, {
+        "code" : "505005",
+        "display" : "Blood group antibody M'",
+        "definition" : ""
+      }, {
+        "code" : "506006",
+        "display" : "3-Oxosteroid delta^1^-dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "515004",
+        "display" : "Blood group antigen Giaigue",
+        "definition" : ""
+      }, {
+        "code" : "519005",
+        "display" : "Free protein S",
+        "definition" : ""
+      }, {
+        "code" : "521000",
+        "display" : "^197^Mercury",
+        "definition" : ""
+      }, {
+        "code" : "529003",
+        "display" : "Guanosine",
+        "definition" : ""
+      }, {
+        "code" : "538001",
+        "display" : "2",
+        "definition" : "3-Dihydroxybenzoate 3"
+      }, {
+        "code" : "566009",
+        "display" : "Acrosin",
+        "definition" : ""
+      }, {
+        "code" : "576007",
+        "display" : "Blood group antibody Duck",
+        "definition" : ""
+      }, {
+        "code" : "578008",
+        "display" : "Hemoglobin Jianghua",
+        "definition" : ""
+      }, {
+        "code" : "584006",
+        "display" : "Blood group antibody Wr^b^",
+        "definition" : ""
+      }, {
+        "code" : "585007",
+        "display" : "SP - Substance P",
+        "definition" : ""
+      }, {
+        "code" : "591009",
+        "display" : "2-Oxoisovalerate dehydrogenase (acylating)",
+        "definition" : ""
+      }, {
+        "code" : "593007",
+        "display" : "Blood group antibody Holmes",
+        "definition" : ""
+      }, {
+        "code" : "594001",
+        "display" : "2-Oxoglutarate synthase",
+        "definition" : ""
+      }, {
+        "code" : "597008",
+        "display" : "^247^Californium",
+        "definition" : ""
+      }, {
+        "code" : "604000",
+        "display" : "Plant sapogenin glycoside",
+        "definition" : ""
+      }, {
+        "code" : "611001",
+        "display" : "Hippurate hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "620005",
+        "display" : "Trichlorophenol",
+        "definition" : ""
+      }, {
+        "code" : "648005",
+        "display" : "Oil of calamus",
+        "definition" : ""
+      }, {
+        "code" : "662003",
+        "display" : "Aeromonas proteolytica aminopeptidase",
+        "definition" : ""
+      }, {
+        "code" : "668004",
+        "display" : "^185^Osmium",
+        "definition" : ""
+      }, {
+        "code" : "683009",
+        "display" : "Mercuric acetate",
+        "definition" : ""
+      }, {
+        "code" : "686001",
+        "display" : "Plastoquinol-plastocyanin reductase",
+        "definition" : ""
+      }, {
+        "code" : "693002",
+        "display" : "Trichothecene",
+        "definition" : ""
+      }, {
+        "code" : "698006",
+        "display" : "Erythromycin lactobionate",
+        "definition" : ""
+      }, {
+        "code" : "699003",
+        "display" : "Coal tar extract",
+        "definition" : ""
+      }, {
+        "code" : "704006",
+        "display" : "Blood group antigen Rx",
+        "definition" : ""
+      }, {
+        "code" : "732002",
+        "display" : "N-valeraldehyde",
+        "definition" : ""
+      }, {
+        "code" : "735000",
+        "display" : "Blood group antigen Jobbins",
+        "definition" : ""
+      }, {
+        "code" : "747006",
+        "display" : "Oxamniquine",
+        "definition" : ""
+      }, {
+        "code" : "773001",
+        "display" : "Hemoglobin M-Iwate",
+        "definition" : ""
+      }, {
+        "code" : "785009",
+        "display" : "Dextranase",
+        "definition" : ""
+      }, {
+        "code" : "804003",
+        "display" : "Creosotic acid",
+        "definition" : ""
+      }, {
+        "code" : "819002",
+        "display" : "Lytic antibody",
+        "definition" : ""
+      }, {
+        "code" : "850000",
+        "display" : "Stizolobate synthase",
+        "definition" : ""
+      }, {
+        "code" : "859004",
+        "display" : "Peptide-N^4^-(N-acetyl-b-glucosaminyl) asparagine amidase",
+        "definition" : ""
+      }, {
+        "code" : "860009",
+        "display" : "Immunoglobulin",
+        "definition" : "aggregated"
+      }, {
+        "code" : "873008",
+        "display" : "Urethan",
+        "definition" : ""
+      }, {
+        "code" : "876000",
+        "display" : "D antigen",
+        "definition" : ""
+      }, {
+        "code" : "877009",
+        "display" : "Carboxypeptidase A",
+        "definition" : ""
+      }, {
+        "code" : "889006",
+        "display" : "[Acetyl-CoA carboxylase] kinase",
+        "definition" : ""
+      }, {
+        "code" : "896008",
+        "display" : "Ice",
+        "definition" : ""
+      }, {
+        "code" : "905001",
+        "display" : "o-Dihydroxycoumarin O^7^-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "923009",
+        "display" : "Complement component 2",
+        "definition" : ""
+      }, {
+        "code" : "925002",
+        "display" : "Sodium iodipamide",
+        "definition" : ""
+      }, {
+        "code" : "963005",
+        "display" : "Pyridoxine 4-dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "974001",
+        "display" : "Adenosylmethionine decarboxylase",
+        "definition" : ""
+      }, {
+        "code" : "979006",
+        "display" : "Carbamate kinase",
+        "definition" : ""
+      }, {
+        "code" : "993004",
+        "display" : "Palladium compound",
+        "definition" : ""
+      }, {
+        "code" : "1002007",
+        "display" : "Mannotetraose 2-alpha-N-acetylglucosaminyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "1010008",
+        "display" : "N-Acetylneuraminate monooxygenase",
+        "definition" : ""
+      }, {
+        "code" : "1018001",
+        "display" : "Nornicotine",
+        "definition" : ""
+      }, {
+        "code" : "1025008",
+        "display" : "^93^Molybdenum",
+        "definition" : ""
+      }, {
+        "code" : "1047008",
+        "display" : "Guanine deaminase",
+        "definition" : ""
+      }, {
+        "code" : "1050006",
+        "display" : "Melilotate 3-monooxygenase",
+        "definition" : ""
+      }, {
+        "code" : "1057009",
+        "display" : "Phosphate salt",
+        "definition" : ""
+      }, {
+        "code" : "1065007",
+        "display" : "E. coli periplasmic proteinase",
+        "definition" : ""
+      }, {
+        "code" : "1080001",
+        "display" : "^202^Thallium",
+        "definition" : ""
+      }, {
+        "code" : "1091008",
+        "display" : "Coagulation factor inhibitor",
+        "definition" : ""
+      }, {
+        "code" : "1097007",
+        "display" : "Blood group antigen M^A^",
+        "definition" : ""
+      }, {
+        "code" : "1105007",
+        "display" : "Isochorismate synthase",
+        "definition" : ""
+      }, {
+        "code" : "1113008",
+        "display" : "Pancreatic ribonuclease",
+        "definition" : ""
+      }, {
+        "code" : "1137008",
+        "display" : "^240^Uranium",
+        "definition" : ""
+      }, {
+        "code" : "1149009",
+        "display" : "Hemoglobin Barcelona",
+        "definition" : ""
+      }, {
+        "code" : "1160000",
+        "display" : "Antibody to antigen in ISBT system LU",
+        "definition" : ""
+      }, {
+        "code" : "1166006",
+        "display" : "Ti - Titanium",
+        "definition" : ""
+      }, {
+        "code" : "1169004",
+        "display" : "Hemoglobin Gower-2",
+        "definition" : ""
+      }, {
+        "code" : "1171004",
+        "display" : "Fibrinogen Kawaguchi",
+        "definition" : ""
+      }, {
+        "code" : "1185009",
+        "display" : "Hemoglobin Roseau-Pointe à Pitre",
+        "definition" : ""
+      }, {
+        "code" : "1189003",
+        "display" : "Hemoglobin F-M-Osaka",
+        "definition" : ""
+      }, {
+        "code" : "1190007",
+        "display" : "Mephenoxalone",
+        "definition" : ""
+      }, {
+        "code" : "1219001",
+        "display" : "Diethyl xanthogen disulfide",
+        "definition" : ""
+      }, {
+        "code" : "1223009",
+        "display" : "Blood group antigen Marks",
+        "definition" : ""
+      }, {
+        "code" : "1244009",
+        "display" : "Fibrinogen Madrid I",
+        "definition" : ""
+      }, {
+        "code" : "1248007",
+        "display" : "Leucostoma neutral proteinase",
+        "definition" : ""
+      }, {
+        "code" : "1269009",
+        "display" : "Amikacin sulfate",
+        "definition" : ""
+      }, {
+        "code" : "1272002",
+        "display" : "Pteridine oxidase",
+        "definition" : ""
+      }, {
+        "code" : "1273007",
+        "display" : "Blood group antibody Evelyn",
+        "definition" : ""
+      }, {
+        "code" : "1313002",
+        "display" : "Nitrate reductase (cytochrome)",
+        "definition" : ""
+      }, {
+        "code" : "1319003",
+        "display" : "Blood group antibody K18",
+        "definition" : ""
+      }, {
+        "code" : "1320009",
+        "display" : "Hemoglobin Manitoba",
+        "definition" : ""
+      }, {
+        "code" : "1325004",
+        "display" : "Metocurine iodide",
+        "definition" : ""
+      }, {
+        "code" : "1331001",
+        "display" : "Methamidophos",
+        "definition" : ""
+      }, {
+        "code" : "1334009",
+        "display" : "Estradiol receptor",
+        "definition" : ""
+      }, {
+        "code" : "1336006",
+        "display" : "Deoxycortone",
+        "definition" : ""
+      }, {
+        "code" : "1341003",
+        "display" : "Hemoglobin Ta-li",
+        "definition" : ""
+      }, {
+        "code" : "1346008",
+        "display" : "Blue shade eosin stain",
+        "definition" : ""
+      }, {
+        "code" : "1355006",
+        "display" : "Coagulation factor IX Oxford 3 variant",
+        "definition" : ""
+      }, {
+        "code" : "1368003",
+        "display" : "Iodine 131",
+        "definition" : ""
+      }, {
+        "code" : "1371006",
+        "display" : "Blood group antigen Big",
+        "definition" : ""
+      }, {
+        "code" : "1373009",
+        "display" : "^93^Zirconium",
+        "definition" : ""
+      }, {
+        "code" : "1381005",
+        "display" : "^126^Iodine",
+        "definition" : ""
+      }, {
+        "code" : "1394007",
+        "display" : "Iron pentacarbonyl",
+        "definition" : ""
+      }, {
+        "code" : "1396009",
+        "display" : "Actinium",
+        "definition" : ""
+      }, {
+        "code" : "1405004",
+        "display" : "Blood group antibody M^e^",
+        "definition" : ""
+      }, {
+        "code" : "1408002",
+        "display" : "Blood group antibody 1123K",
+        "definition" : ""
+      }, {
+        "code" : "1416006",
+        "display" : "Radium compound",
+        "definition" : ""
+      }, {
+        "code" : "1450002",
+        "display" : "Methylpentynol",
+        "definition" : ""
+      }, {
+        "code" : "1466000",
+        "display" : "Cyclomaltodextrinase",
+        "definition" : ""
+      }, {
+        "code" : "1471007",
+        "display" : "Elastin",
+        "definition" : ""
+      }, {
+        "code" : "1472000",
+        "display" : "Adenosine-phosphate deaminase",
+        "definition" : ""
+      }, {
+        "code" : "1476002",
+        "display" : "Codeine sulfate",
+        "definition" : ""
+      }, {
+        "code" : "1477006",
+        "display" : "Hemoglobin Yatsushiro",
+        "definition" : ""
+      }, {
+        "code" : "1496005",
+        "display" : "Proto-oncogene",
+        "definition" : ""
+      }, {
+        "code" : "1506001",
+        "display" : "CH1 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "1517000",
+        "display" : "HLA - Human leukocyte antigen B21",
+        "definition" : ""
+      }, {
+        "code" : "1530004",
+        "display" : "6-Carboxyhexanoate-coenzyme A ligase",
+        "definition" : ""
+      }, {
+        "code" : "1535009",
+        "display" : "Nitrogen fluoride",
+        "definition" : ""
+      }, {
+        "code" : "1536005",
+        "display" : "Pargyline hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "1540001",
+        "display" : "Tellurium radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "1545006",
+        "display" : "Uridine phosphorylase",
+        "definition" : ""
+      }, {
+        "code" : "1557002",
+        "display" : "Talc dusting powder",
+        "definition" : ""
+      }, {
+        "code" : "1565004",
+        "display" : "Blood group antibody Buckalew",
+        "definition" : ""
+      }, {
+        "code" : "1575001",
+        "display" : "Maltose tetrapalmitate",
+        "definition" : ""
+      }, {
+        "code" : "1603001",
+        "display" : "Cobalt isotope",
+        "definition" : ""
+      }, {
+        "code" : "1607000",
+        "display" : "Homoserine kinase",
+        "definition" : ""
+      }, {
+        "code" : "1609002",
+        "display" : "N-octyl isosafrole sulfoxide",
+        "definition" : ""
+      }, {
+        "code" : "1634002",
+        "display" : "Blood group antigen Ven",
+        "definition" : ""
+      }, {
+        "code" : "1649005",
+        "display" : "Blood group antigen Sul",
+        "definition" : ""
+      }, {
+        "code" : "1656004",
+        "display" : "Hemoglobin Shaare Zedek",
+        "definition" : ""
+      }, {
+        "code" : "1660001",
+        "display" : "Plant seeds",
+        "definition" : ""
+      }, {
+        "code" : "1668008",
+        "display" : "Ceforanide",
+        "definition" : ""
+      }, {
+        "code" : "1672007",
+        "display" : "Ligase",
+        "definition" : ""
+      }, {
+        "code" : "1673002",
+        "display" : "Xylenol",
+        "definition" : ""
+      }, {
+        "code" : "1675009",
+        "display" : "^86^Rubidium",
+        "definition" : ""
+      }, {
+        "code" : "1676005",
+        "display" : "Blood group antibody LW^ab^",
+        "definition" : ""
+      }, {
+        "code" : "1681001",
+        "display" : "Blood group antibody BLe^b^",
+        "definition" : ""
+      }, {
+        "code" : "1696002",
+        "display" : "12-Hydroperoxy eicosatetraenoic acid",
+        "definition" : ""
+      }, {
+        "code" : "1701009",
+        "display" : "^191^Gold",
+        "definition" : ""
+      }, {
+        "code" : "1710001",
+        "display" : "UA - Uric acid",
+        "definition" : ""
+      }, {
+        "code" : "1726000",
+        "display" : "Diamond",
+        "definition" : ""
+      }, {
+        "code" : "1727009",
+        "display" : "Deoxylimonate A-ring-lactonase",
+        "definition" : ""
+      }, {
+        "code" : "1740004",
+        "display" : "Deoxy cytidine triphosphate",
+        "definition" : ""
+      }, {
+        "code" : "1764003",
+        "display" : "Saccharopine dehydrogenase (nicotinamide adenine dinucleotide phosphate ^+^",
+        "definition" : "L-glutamate-forming)"
+      }, {
+        "code" : "1768000",
+        "display" : "Sucrose phosphorylase",
+        "definition" : ""
+      }, {
+        "code" : "1786002",
+        "display" : "Leucine-transfer ribonucleic acid ligase",
+        "definition" : ""
+      }, {
+        "code" : "1793003",
+        "display" : "Sodium trichloroacetate",
+        "definition" : ""
+      }, {
+        "code" : "1795005",
+        "display" : "Glyodin",
+        "definition" : ""
+      }, {
+        "code" : "1798007",
+        "display" : "Hemoglobin Hammersmith",
+        "definition" : ""
+      }, {
+        "code" : "1799004",
+        "display" : "L-Lysine oxidase",
+        "definition" : ""
+      }, {
+        "code" : "1823002",
+        "display" : "Hemoglobin Tochigi",
+        "definition" : ""
+      }, {
+        "code" : "1827001",
+        "display" : "Ribonuclease T>1<",
+        "definition" : ""
+      }, {
+        "code" : "1886008",
+        "display" : "Verdoglobin",
+        "definition" : ""
+      }, {
+        "code" : "1904005",
+        "display" : "Galactoside 3-fucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "1914001",
+        "display" : "von Willebrand factor antibody",
+        "definition" : ""
+      }, {
+        "code" : "1916004",
+        "display" : "Boroglycerin",
+        "definition" : ""
+      }, {
+        "code" : "1940007",
+        "display" : "Immunoglobulin",
+        "definition" : "GM>21< allotype"
+      }, {
+        "code" : "1944003",
+        "display" : "Coagulation factor X Patient variant",
+        "definition" : ""
+      }, {
+        "code" : "1956002",
+        "display" : "Buclizine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "1971003",
+        "display" : "Loxapine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "1975007",
+        "display" : "Blood group antibody Niemetz",
+        "definition" : ""
+      }, {
+        "code" : "1978009",
+        "display" : "Site-specific methyltransferase (cytosine-specific)",
+        "definition" : ""
+      }, {
+        "code" : "1985008",
+        "display" : "Vomitus",
+        "definition" : ""
+      }, {
+        "code" : "1991005",
+        "display" : "Lignin",
+        "definition" : ""
+      }, {
+        "code" : "2000001",
+        "display" : "Heavy nitrogen",
+        "definition" : ""
+      }, {
+        "code" : "2006007",
+        "display" : "Inosine diphosphate",
+        "definition" : ""
+      }, {
+        "code" : "2008008",
+        "display" : "^67^Gallium",
+        "definition" : ""
+      }, {
+        "code" : "2009000",
+        "display" : "Cobalt carbonyl",
+        "definition" : ""
+      }, {
+        "code" : "2017008",
+        "display" : "Deoxyribonucleic acid topoisomerase",
+        "definition" : ""
+      }, {
+        "code" : "2027002",
+        "display" : "Alternaria serine proteinase",
+        "definition" : ""
+      }, {
+        "code" : "2029004",
+        "display" : "Fibrinogen Oslo II",
+        "definition" : ""
+      }, {
+        "code" : "2038002",
+        "display" : "Blood group antibody Bg^b^",
+        "definition" : ""
+      }, {
+        "code" : "2039005",
+        "display" : "sym-Norspermidine synthase",
+        "definition" : ""
+      }, {
+        "code" : "2050008",
+        "display" : "Choloylglycine hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "2064008",
+        "display" : "L-Xylulokinase",
+        "definition" : ""
+      }, {
+        "code" : "2082006",
+        "display" : "Vitronectin receptor alpha chain",
+        "definition" : ""
+      }, {
+        "code" : "2085008",
+        "display" : "Oncogene protein TCL",
+        "definition" : ""
+      }, {
+        "code" : "2088005",
+        "display" : "Page blue G-90 stain",
+        "definition" : ""
+      }, {
+        "code" : "2096000",
+        "display" : "Nicotinamide adenine dinucleotide ^+^ adenosine diphosphate-ribosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "2100004",
+        "display" : "Sulfonethylmethane",
+        "definition" : ""
+      }, {
+        "code" : "2101000",
+        "display" : "Yeast proteinase B",
+        "definition" : ""
+      }, {
+        "code" : "2125008",
+        "display" : "Betazole",
+        "definition" : ""
+      }, {
+        "code" : "2130007",
+        "display" : "Cyclohexane-1",
+        "definition" : "2-diol dehydrogenase"
+      }, {
+        "code" : "2141009",
+        "display" : "Hydrogen",
+        "definition" : ""
+      }, {
+        "code" : "2147008",
+        "display" : "Blood group antigen Paular",
+        "definition" : ""
+      }, {
+        "code" : "2151005",
+        "display" : "Pyridoxamine-pyruvate aminotransferase",
+        "definition" : ""
+      }, {
+        "code" : "2154002",
+        "display" : "Tagaturonate reductase",
+        "definition" : ""
+      }, {
+        "code" : "2159007",
+        "display" : "Acid red 27",
+        "definition" : ""
+      }, {
+        "code" : "2163000",
+        "display" : "Dicofol",
+        "definition" : ""
+      }, {
+        "code" : "2168009",
+        "display" : "Bisphosphoglycerate mutase",
+        "definition" : ""
+      }, {
+        "code" : "2179004",
+        "display" : "Malonate-semialdehyde dehydratase",
+        "definition" : ""
+      }, {
+        "code" : "2189000",
+        "display" : "Hemoglobin F-Dammam",
+        "definition" : ""
+      }, {
+        "code" : "2194000",
+        "display" : "^101^Rhodium",
+        "definition" : ""
+      }, {
+        "code" : "2195004",
+        "display" : "Tocainide hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "2197007",
+        "display" : "Boric acid topical agent",
+        "definition" : ""
+      }, {
+        "code" : "2201007",
+        "display" : "Bacteriopurpurin",
+        "definition" : ""
+      }, {
+        "code" : "2208001",
+        "display" : "Phenylserine aldolase",
+        "definition" : ""
+      }, {
+        "code" : "2212007",
+        "display" : "Fibrinogen Bethesda II",
+        "definition" : ""
+      }, {
+        "code" : "2215009",
+        "display" : "Azuresin",
+        "definition" : ""
+      }, {
+        "code" : "2240002",
+        "display" : "Guanidinobutyrase",
+        "definition" : ""
+      }, {
+        "code" : "2249001",
+        "display" : "Gentamicin sulfate",
+        "definition" : ""
+      }, {
+        "code" : "2254005",
+        "display" : "Orotate",
+        "definition" : ""
+      }, {
+        "code" : "2260005",
+        "display" : "Human leukocyte antigen DRw18",
+        "definition" : ""
+      }, {
+        "code" : "2262002",
+        "display" : "Cellulose polysulfatase",
+        "definition" : ""
+      }, {
+        "code" : "2264001",
+        "display" : "Selenium isotope",
+        "definition" : ""
+      }, {
+        "code" : "2309006",
+        "display" : "Au - Gold",
+        "definition" : ""
+      }, {
+        "code" : "2311002",
+        "display" : "Prostacyclin synthase",
+        "definition" : ""
+      }, {
+        "code" : "2329007",
+        "display" : "Blood group antibody Vel",
+        "definition" : ""
+      }, {
+        "code" : "2331003",
+        "display" : "Saccharide",
+        "definition" : ""
+      }, {
+        "code" : "2338009",
+        "display" : "Root",
+        "definition" : ""
+      }, {
+        "code" : "2343002",
+        "display" : "Guthion",
+        "definition" : ""
+      }, {
+        "code" : "2346005",
+        "display" : "Vascormone",
+        "definition" : ""
+      }, {
+        "code" : "2354007",
+        "display" : "3'-Nucleotidase",
+        "definition" : ""
+      }, {
+        "code" : "2358005",
+        "display" : "Glass fragment",
+        "definition" : "device"
+      }, {
+        "code" : "2369008",
+        "display" : "Indole-3-acetate beta-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "2370009",
+        "display" : "Uridine diphosphate-N-acetylmuramate-alanine ligase",
+        "definition" : ""
+      }, {
+        "code" : "2376003",
+        "display" : "Mercury compound",
+        "definition" : ""
+      }, {
+        "code" : "2384004",
+        "display" : "^230^Uranium",
+        "definition" : ""
+      }, {
+        "code" : "2404002",
+        "display" : "Blood group antibody St^a^",
+        "definition" : ""
+      }, {
+        "code" : "2405001",
+        "display" : "b- Propiolactone",
+        "definition" : ""
+      }, {
+        "code" : "2414006",
+        "display" : "Prolactin receptor",
+        "definition" : ""
+      }, {
+        "code" : "2430003",
+        "display" : "Silicon radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "2431004",
+        "display" : "Blood group antibody Friedberg",
+        "definition" : ""
+      }, {
+        "code" : "2441001",
+        "display" : "Mercury radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "2444009",
+        "display" : "Human leukocyte antigen Dw25",
+        "definition" : ""
+      }, {
+        "code" : "2450004",
+        "display" : "Mannosamine",
+        "definition" : ""
+      }, {
+        "code" : "2462000",
+        "display" : "Glucose dehydrogenase (nicotinamide adenine dinucleotide phosphate ^+^)",
+        "definition" : ""
+      }, {
+        "code" : "2466002",
+        "display" : "Chloride peroxidase",
+        "definition" : ""
+      }, {
+        "code" : "2500009",
+        "display" : "Lymphocyte antigen CDw41b",
+        "definition" : ""
+      }, {
+        "code" : "2509005",
+        "display" : "D-Glutamate oxidase",
+        "definition" : ""
+      }, {
+        "code" : "2516006",
+        "display" : "Metallic sulfide compound",
+        "definition" : ""
+      }, {
+        "code" : "2522002",
+        "display" : "Extravascular blood",
+        "definition" : ""
+      }, {
+        "code" : "2529006",
+        "display" : "Hemoglobin Wood",
+        "definition" : ""
+      }, {
+        "code" : "2537003",
+        "display" : "Antituberculosis agent",
+        "definition" : ""
+      }, {
+        "code" : "2568004",
+        "display" : "Blood group antigen McAuley",
+        "definition" : ""
+      }, {
+        "code" : "2573005",
+        "display" : "Immunoglobulin",
+        "definition" : "GM>13< allotype"
+      }, {
+        "code" : "2575003",
+        "display" : "Zinc alpha-2 glycoprotein",
+        "definition" : ""
+      }, {
+        "code" : "2595009",
+        "display" : "^119m^Tellurium",
+        "definition" : ""
+      }, {
+        "code" : "2597001",
+        "display" : "Alpha-1 globulin",
+        "definition" : ""
+      }, {
+        "code" : "2611008",
+        "display" : "Blood group antibody La Fave",
+        "definition" : ""
+      }, {
+        "code" : "2637006",
+        "display" : "Indium isotope",
+        "definition" : ""
+      }, {
+        "code" : "2648004",
+        "display" : "Bile vomitus",
+        "definition" : ""
+      }, {
+        "code" : "2649007",
+        "display" : "Azo-dye",
+        "definition" : ""
+      }, {
+        "code" : "2660003",
+        "display" : "Sodium dehydrocholate",
+        "definition" : ""
+      }, {
+        "code" : "2671002",
+        "display" : "3-Methyl-2-oxobutanoate hydroxy-methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "2674005",
+        "display" : "^128^Cesium",
+        "definition" : ""
+      }, {
+        "code" : "2676007",
+        "display" : "C3(H20)",
+        "definition" : ""
+      }, {
+        "code" : "2678008",
+        "display" : "Hemoglobin New Mexico",
+        "definition" : ""
+      }, {
+        "code" : "2680002",
+        "display" : "Factor XIII antibody",
+        "definition" : ""
+      }, {
+        "code" : "2698003",
+        "display" : "Natural gas",
+        "definition" : ""
+      }, {
+        "code" : "2705002",
+        "display" : "^72^Arsenic",
+        "definition" : ""
+      }, {
+        "code" : "2706001",
+        "display" : "Blood group antigen Vennera",
+        "definition" : ""
+      }, {
+        "code" : "2719002",
+        "display" : "Tartrate dehydratase",
+        "definition" : ""
+      }, {
+        "code" : "2721007",
+        "display" : "Blood group antigen McC^f^",
+        "definition" : ""
+      }, {
+        "code" : "2728001",
+        "display" : "Lewis system antigen",
+        "definition" : ""
+      }, {
+        "code" : "2753003",
+        "display" : "Blood group antibody M>1<",
+        "definition" : ""
+      }, {
+        "code" : "2754009",
+        "display" : "Hemoglobin F-Kennestone",
+        "definition" : ""
+      }, {
+        "code" : "2765004",
+        "display" : "SC3 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "2778004",
+        "display" : "Pleural fluid",
+        "definition" : ""
+      }, {
+        "code" : "2796008",
+        "display" : "Methanthelinium",
+        "definition" : ""
+      }, {
+        "code" : "2799001",
+        "display" : "Methylbenzethonium",
+        "definition" : ""
+      }, {
+        "code" : "2823004",
+        "display" : "Hemoglobin Bristol",
+        "definition" : ""
+      }, {
+        "code" : "2832002",
+        "display" : "Molybdenum compound",
+        "definition" : ""
+      }, {
+        "code" : "2846002",
+        "display" : "Hemoglobin Saitama",
+        "definition" : ""
+      }, {
+        "code" : "2869004",
+        "display" : "Ethanoic acid",
+        "definition" : ""
+      }, {
+        "code" : "2878005",
+        "display" : "Pethidine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "2880004",
+        "display" : "Calcium sulfate",
+        "definition" : ""
+      }, {
+        "code" : "2883002",
+        "display" : "Exopolygalacturonate lyase",
+        "definition" : ""
+      }, {
+        "code" : "2913009",
+        "display" : "Immunoglobulin Epsilon chain",
+        "definition" : ""
+      }, {
+        "code" : "2916001",
+        "display" : "^22^Neon",
+        "definition" : ""
+      }, {
+        "code" : "2925007",
+        "display" : "Fluoromethalone",
+        "definition" : ""
+      }, {
+        "code" : "2927004",
+        "display" : "Rescinnamine",
+        "definition" : ""
+      }, {
+        "code" : "2938004",
+        "display" : "Pyrazole",
+        "definition" : ""
+      }, {
+        "code" : "2942001",
+        "display" : "Carbon^14^ D-xylose",
+        "definition" : ""
+      }, {
+        "code" : "2950005",
+        "display" : "Hemoglobin L-Persian Gulf",
+        "definition" : ""
+      }, {
+        "code" : "2958003",
+        "display" : "Zinc caprylate",
+        "definition" : ""
+      }, {
+        "code" : "2964005",
+        "display" : "Dimethoxyamphetamine",
+        "definition" : ""
+      }, {
+        "code" : "2974008",
+        "display" : "Trichophyton schoenleinii collagenase",
+        "definition" : ""
+      }, {
+        "code" : "2988007",
+        "display" : "Human leukocyte antigen Aw",
+        "definition" : ""
+      }, {
+        "code" : "2991007",
+        "display" : "Mecamylamine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "2995003",
+        "display" : "Arecoline",
+        "definition" : ""
+      }, {
+        "code" : "3027009",
+        "display" : "^133^Barium",
+        "definition" : ""
+      }, {
+        "code" : "3031003",
+        "display" : "Dihydroxyaluminum sodium carbonate",
+        "definition" : ""
+      }, {
+        "code" : "3040004",
+        "display" : "Technetium Tc^99m^ disofenin",
+        "definition" : ""
+      }, {
+        "code" : "3045009",
+        "display" : "Nitrochlorobenzene",
+        "definition" : ""
+      }, {
+        "code" : "3052006",
+        "display" : "Ornithine ketoacid aminotransferase",
+        "definition" : ""
+      }, {
+        "code" : "3066001",
+        "display" : "Triiodothyroacetic acid",
+        "definition" : ""
+      }, {
+        "code" : "3070009",
+        "display" : "Aspartate-ammonia ligase",
+        "definition" : ""
+      }, {
+        "code" : "3087006",
+        "display" : "Oil of male fern",
+        "definition" : ""
+      }, {
+        "code" : "3107005",
+        "display" : "Hemoglobin Shuangfeng",
+        "definition" : ""
+      }, {
+        "code" : "3108000",
+        "display" : "Aspergillus deoxyribonuclease K>1<",
+        "definition" : ""
+      }, {
+        "code" : "3131000",
+        "display" : "Blood group antigen Middel",
+        "definition" : ""
+      }, {
+        "code" : "3136005",
+        "display" : "Cefoperazone sodium",
+        "definition" : ""
+      }, {
+        "code" : "3142009",
+        "display" : "Azacyclonol",
+        "definition" : ""
+      }, {
+        "code" : "3145006",
+        "display" : "Penicillic acid",
+        "definition" : ""
+      }, {
+        "code" : "3150000",
+        "display" : "Sialate O-acetylesterase",
+        "definition" : ""
+      }, {
+        "code" : "3151001",
+        "display" : "Left upper lobe mucus",
+        "definition" : ""
+      }, {
+        "code" : "3155005",
+        "display" : "3-Phosphoglyceroyl-phosphate-polyphosphate phosphotransferase",
+        "definition" : ""
+      }, {
+        "code" : "3161008",
+        "display" : "3-Methylhistidine",
+        "definition" : ""
+      }, {
+        "code" : "3167007",
+        "display" : "Hard coal",
+        "definition" : ""
+      }, {
+        "code" : "3187008",
+        "display" : "Blood group antigen Nielsen",
+        "definition" : ""
+      }, {
+        "code" : "3193000",
+        "display" : "alpha-1",
+        "definition" : "4-Glucan-protein synthase (uridine diphosphate-forming)"
+      }, {
+        "code" : "3197004",
+        "display" : "Inosine monophosphate",
+        "definition" : ""
+      }, {
+        "code" : "3209002",
+        "display" : "Pancuronium sodium",
+        "definition" : ""
+      }, {
+        "code" : "3212004",
+        "display" : "Manganese sulfate",
+        "definition" : ""
+      }, {
+        "code" : "3225007",
+        "display" : "Fibrinogen Seattle I",
+        "definition" : ""
+      }, {
+        "code" : "3232003",
+        "display" : "o-Benzyl-parachlorophenol",
+        "definition" : ""
+      }, {
+        "code" : "3271000",
+        "display" : "Hemoglobin Southampton",
+        "definition" : ""
+      }, {
+        "code" : "3273002",
+        "display" : "Tyrosine-ester sulfotransferase",
+        "definition" : ""
+      }, {
+        "code" : "3300001",
+        "display" : "Euphorbain",
+        "definition" : ""
+      }, {
+        "code" : "3318003",
+        "display" : "Vaginal secretions",
+        "definition" : ""
+      }, {
+        "code" : "3325005",
+        "display" : "Lipopolysaccharide",
+        "definition" : ""
+      }, {
+        "code" : "3339005",
+        "display" : "(R)-20-Hydroxysteroid dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "3340007",
+        "display" : "Diastase",
+        "definition" : ""
+      }, {
+        "code" : "3342004",
+        "display" : "Copper isotope",
+        "definition" : ""
+      }, {
+        "code" : "3346001",
+        "display" : "Hemoglobin Brest",
+        "definition" : ""
+      }, {
+        "code" : "3378009",
+        "display" : "Imipramine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "3379001",
+        "display" : "Merthiolate",
+        "definition" : ""
+      }, {
+        "code" : "3392003",
+        "display" : "Aldehyde dehydrogenase (acceptor)",
+        "definition" : ""
+      }, {
+        "code" : "3405005",
+        "display" : "2-Hydroxy-3-oxoadipate synthase",
+        "definition" : ""
+      }, {
+        "code" : "3411008",
+        "display" : "bis-(Dimethylthiocarbamyl) disulfide",
+        "definition" : ""
+      }, {
+        "code" : "3437006",
+        "display" : "Hydroxymethylglutaryl-coenzyme A hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "3440006",
+        "display" : "Biotin carboxylase",
+        "definition" : ""
+      }, {
+        "code" : "3455002",
+        "display" : "Discontinued pesticide",
+        "definition" : ""
+      }, {
+        "code" : "3463001",
+        "display" : "L-Amino-acid dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "3465008",
+        "display" : "Deoxyribonucleic acid topoisomerase (adenosine triphosphate [ATP]-hydrolysing)",
+        "definition" : ""
+      }, {
+        "code" : "3466009",
+        "display" : "Dimethylamine",
+        "definition" : ""
+      }, {
+        "code" : "3492002",
+        "display" : "Galactinol-sucrose galactosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "3493007",
+        "display" : "Smegma clitoridis",
+        "definition" : ""
+      }, {
+        "code" : "3495000",
+        "display" : "Cystine aminopeptidase",
+        "definition" : ""
+      }, {
+        "code" : "3501003",
+        "display" : "Isoxsuprine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "3523004",
+        "display" : "Hemoglobin Q-India",
+        "definition" : ""
+      }, {
+        "code" : "3532002",
+        "display" : "Laryngeal mucus",
+        "definition" : ""
+      }, {
+        "code" : "3555004",
+        "display" : "Blood group antigen Morrison",
+        "definition" : ""
+      }, {
+        "code" : "3579002",
+        "display" : "^129^Cesium",
+        "definition" : ""
+      }, {
+        "code" : "3581000",
+        "display" : "Glucose-6-phosphatase",
+        "definition" : ""
+      }, {
+        "code" : "3587001",
+        "display" : "Malate dehydrogenase (decarboxylating)",
+        "definition" : ""
+      }, {
+        "code" : "3588006",
+        "display" : "Complement enzyme",
+        "definition" : ""
+      }, {
+        "code" : "3592004",
+        "display" : "Short-acting thyroid stimulator",
+        "definition" : ""
+      }, {
+        "code" : "3597005",
+        "display" : "Acebutolol hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "3601005",
+        "display" : "Ether solvent",
+        "definition" : ""
+      }, {
+        "code" : "3602003",
+        "display" : "Warm antibody",
+        "definition" : ""
+      }, {
+        "code" : "3610002",
+        "display" : "Epoxide hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "3617004",
+        "display" : "^79^Selenium",
+        "definition" : ""
+      }, {
+        "code" : "3648007",
+        "display" : "Glucocorticoid receptor",
+        "definition" : ""
+      }, {
+        "code" : "3655009",
+        "display" : "Hb - Hemoglobin Constant Spring",
+        "definition" : ""
+      }, {
+        "code" : "3672002",
+        "display" : "Fibrinogen Caracas",
+        "definition" : ""
+      }, {
+        "code" : "3684000",
+        "display" : "Phenylacetic acid",
+        "definition" : ""
+      }, {
+        "code" : "3689005",
+        "display" : "Hemoglobin Mizushi",
+        "definition" : ""
+      }, {
+        "code" : "3692009",
+        "display" : "Sodium sulfite",
+        "definition" : ""
+      }, {
+        "code" : "3693004",
+        "display" : "Fibrinogen Dusart",
+        "definition" : ""
+      }, {
+        "code" : "3702007",
+        "display" : "Cytidine diphosphate (CDP) glycerol glycerophosphotransferase",
+        "definition" : ""
+      }, {
+        "code" : "3710008",
+        "display" : "Prostaglandin-endoperoxide synthase",
+        "definition" : ""
+      }, {
+        "code" : "3718001",
+        "display" : "Cow's milk",
+        "definition" : ""
+      }, {
+        "code" : "3726009",
+        "display" : "Valine-transfer ribonucleic acid ligase",
+        "definition" : ""
+      }, {
+        "code" : "3727000",
+        "display" : "Hemoglobin F-Port Royal",
+        "definition" : ""
+      }, {
+        "code" : "3730007",
+        "display" : "Blood group antigen Lanthois",
+        "definition" : ""
+      }, {
+        "code" : "3737005",
+        "display" : "Nitrate reductase (reduced nicotinamide adenine dinucleotide)",
+        "definition" : ""
+      }, {
+        "code" : "3742002",
+        "display" : "Extracellular crystal",
+        "definition" : ""
+      }, {
+        "code" : "3757009",
+        "display" : "Gossypol",
+        "definition" : ""
+      }, {
+        "code" : "3771001",
+        "display" : "Neuromelanin",
+        "definition" : ""
+      }, {
+        "code" : "3775005",
+        "display" : "Choline dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "3776006",
+        "display" : "Xanthine dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "3792001",
+        "display" : "AA - Arachidonic acid",
+        "definition" : ""
+      }, {
+        "code" : "3793006",
+        "display" : "Soluble barium compound",
+        "definition" : ""
+      }, {
+        "code" : "3800009",
+        "display" : "Acetate kinase",
+        "definition" : ""
+      }, {
+        "code" : "3807007",
+        "display" : "RH4 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "3811001",
+        "display" : "Magnesium-protoporphyrin methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "3812008",
+        "display" : "Beryllium isotope",
+        "definition" : ""
+      }, {
+        "code" : "3816006",
+        "display" : "Vanadium isotope",
+        "definition" : ""
+      }, {
+        "code" : "3823007",
+        "display" : "Prochlorperazine edisylate",
+        "definition" : ""
+      }, {
+        "code" : "3829006",
+        "display" : "Fe - Iron",
+        "definition" : ""
+      }, {
+        "code" : "3834005",
+        "display" : "CMP-N-acetylneuraminate-(alpha-N-acetyl-neuraminyl-2",
+        "definition" : "3-beta-galactosyl-1"
+      }, {
+        "code" : "3836007",
+        "display" : "Glutaminase",
+        "definition" : ""
+      }, {
+        "code" : "3844007",
+        "display" : "Protoaphin-aglucone dehydratase (cyclizing)",
+        "definition" : ""
+      }, {
+        "code" : "3848005",
+        "display" : "Nitrotoluene",
+        "definition" : ""
+      }, {
+        "code" : "3849002",
+        "display" : "Carbon black",
+        "definition" : ""
+      }, {
+        "code" : "3854006",
+        "display" : "bis-Chloro methyl ether",
+        "definition" : ""
+      }, {
+        "code" : "3874004",
+        "display" : "Hydrocodone bitartrate",
+        "definition" : ""
+      }, {
+        "code" : "3892007",
+        "display" : "Thymidine",
+        "definition" : ""
+      }, {
+        "code" : "3896005",
+        "display" : "p-Hydroxybenzoate ester",
+        "definition" : ""
+      }, {
+        "code" : "3897001",
+        "display" : "MNS30 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "3906002",
+        "display" : "Rectified birch tar oil",
+        "definition" : ""
+      }, {
+        "code" : "3920009",
+        "display" : "Hemoglobin Atago",
+        "definition" : ""
+      }, {
+        "code" : "3930000",
+        "display" : "Manufactured gas",
+        "definition" : ""
+      }, {
+        "code" : "3932008",
+        "display" : "^64^Copper",
+        "definition" : ""
+      }, {
+        "code" : "3941003",
+        "display" : "Metronidazole hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "3945007",
+        "display" : "Tin isotope",
+        "definition" : ""
+      }, {
+        "code" : "3958008",
+        "display" : "^245^Californium",
+        "definition" : ""
+      }, {
+        "code" : "3961009",
+        "display" : "Blood group antigen Ritherford",
+        "definition" : ""
+      }, {
+        "code" : "3976001",
+        "display" : "Blood group antigen HEMPAS",
+        "definition" : ""
+      }, {
+        "code" : "3982003",
+        "display" : "Oxaloacetate decarboxylase",
+        "definition" : ""
+      }, {
+        "code" : "3983008",
+        "display" : "N",
+        "definition" : "-N-dimethyltryptamine"
+      }, {
+        "code" : "3990003",
+        "display" : "Alkaline phosphatase bone isoenzyme",
+        "definition" : ""
+      }, {
+        "code" : "3994007",
+        "display" : "Hemoglobin Tampa",
+        "definition" : ""
+      }, {
+        "code" : "4014000",
+        "display" : "Sulfisomidine",
+        "definition" : ""
+      }, {
+        "code" : "4024008",
+        "display" : "Soft metal",
+        "definition" : ""
+      }, {
+        "code" : "4025009",
+        "display" : "Captodiame",
+        "definition" : ""
+      }, {
+        "code" : "4043008",
+        "display" : "Etidocaine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "4047009",
+        "display" : "cis-1",
+        "definition" : "2-Dihydrobenzene-1"
+      }, {
+        "code" : "4048004",
+        "display" : "1",
+        "definition" : "1"
+      }, {
+        "code" : "4067000",
+        "display" : "Chorismate mutase",
+        "definition" : ""
+      }, {
+        "code" : "4076007",
+        "display" : "PTH - Parathyroid hormone",
+        "definition" : ""
+      }, {
+        "code" : "4077003",
+        "display" : "Dihydrolipoamide succinyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "4080002",
+        "display" : "Hemoglobin Grady",
+        "definition" : "Dakar"
+      }, {
+        "code" : "4091009",
+        "display" : "Enteropeptidase",
+        "definition" : ""
+      }, {
+        "code" : "4097008",
+        "display" : "Apo-SAA complex",
+        "definition" : ""
+      }, {
+        "code" : "4104007",
+        "display" : "Chondroitin sulfate",
+        "definition" : ""
+      }, {
+        "code" : "4105008",
+        "display" : "Adenylate cyclase",
+        "definition" : ""
+      }, {
+        "code" : "4115002",
+        "display" : "Blood group antibody Norlander",
+        "definition" : ""
+      }, {
+        "code" : "4137009",
+        "display" : "sec-Butyl acetate",
+        "definition" : ""
+      }, {
+        "code" : "4153007",
+        "display" : "Long-chain-enoyl-coenzyme A hydratase",
+        "definition" : ""
+      }, {
+        "code" : "4167003",
+        "display" : "PECAM-1 - Platelet endothelial cell adhesion molecule-1",
+        "definition" : ""
+      }, {
+        "code" : "4169000",
+        "display" : "Blood group antibody Le^bH^",
+        "definition" : ""
+      }, {
+        "code" : "4177001",
+        "display" : "Hemoglobin Long Island-Marseille",
+        "definition" : ""
+      }, {
+        "code" : "4182008",
+        "display" : "Cytidine diphosphate (CDP) diacylglycerol-serine O-phosphatidyl-transferase",
+        "definition" : ""
+      }, {
+        "code" : "4188007",
+        "display" : "Fibrinogen Sydney II",
+        "definition" : ""
+      }, {
+        "code" : "4200007",
+        "display" : "Neriifolin",
+        "definition" : ""
+      }, {
+        "code" : "4201006",
+        "display" : "6-Aminohexanoate-dimer hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "4203009",
+        "display" : "Imipramine pamoate",
+        "definition" : ""
+      }, {
+        "code" : "4207005",
+        "display" : "Cortisone beta-reductase",
+        "definition" : ""
+      }, {
+        "code" : "4217000",
+        "display" : "Fluorosilicate salt",
+        "definition" : ""
+      }, {
+        "code" : "4218005",
+        "display" : "Immunoglobulin",
+        "definition" : "GM>23< allotype"
+      }, {
+        "code" : "4231000",
+        "display" : "Gallium isotope",
+        "definition" : ""
+      }, {
+        "code" : "4239003",
+        "display" : "Glycerol dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "4255005",
+        "display" : "Americium 241",
+        "definition" : ""
+      }, {
+        "code" : "4289006",
+        "display" : "Keyhole-limpet hemocyanin",
+        "definition" : ""
+      }, {
+        "code" : "4290002",
+        "display" : "Linamarin synthase",
+        "definition" : ""
+      }, {
+        "code" : "4314009",
+        "display" : "Blood group antibody Allchurch",
+        "definition" : ""
+      }, {
+        "code" : "4334005",
+        "display" : "Tar oil",
+        "definition" : ""
+      }, {
+        "code" : "4342006",
+        "display" : "2-Aminopyridine",
+        "definition" : ""
+      }, {
+        "code" : "4353000",
+        "display" : "Di-n-butylphthalate",
+        "definition" : ""
+      }, {
+        "code" : "4355007",
+        "display" : "Coagulation factor IX San Dimas variant",
+        "definition" : ""
+      }, {
+        "code" : "4362003",
+        "display" : "4-Coumarate-coenzyme A ligase",
+        "definition" : ""
+      }, {
+        "code" : "4370008",
+        "display" : "Acetone",
+        "definition" : ""
+      }, {
+        "code" : "4393002",
+        "display" : "Blood group antigen Fedor",
+        "definition" : ""
+      }, {
+        "code" : "4401009",
+        "display" : "Blood group antibody H>T<",
+        "definition" : ""
+      }, {
+        "code" : "4413004",
+        "display" : "Benzypyrinium",
+        "definition" : ""
+      }, {
+        "code" : "4422003",
+        "display" : "Blood group antigen",
+        "definition" : ""
+      }, {
+        "code" : "4423008",
+        "display" : "Fibrinogen New York II",
+        "definition" : ""
+      }, {
+        "code" : "4425001",
+        "display" : "Blood group antibody Binge",
+        "definition" : ""
+      }, {
+        "code" : "4435007",
+        "display" : "Sulfuryl fluoride",
+        "definition" : ""
+      }, {
+        "code" : "4437004",
+        "display" : "^127^Cesium",
+        "definition" : ""
+      }, {
+        "code" : "4471008",
+        "display" : "^244^Californium",
+        "definition" : ""
+      }, {
+        "code" : "4479005",
+        "display" : "Hemoglobin Brockton",
+        "definition" : ""
+      }, {
+        "code" : "4480008",
+        "display" : "Sulfaethidole",
+        "definition" : ""
+      }, {
+        "code" : "4509009",
+        "display" : "Plant phenanthrene toxin",
+        "definition" : ""
+      }, {
+        "code" : "4518006",
+        "display" : "Buthenal",
+        "definition" : ""
+      }, {
+        "code" : "4534009",
+        "display" : "^208^Bismuth",
+        "definition" : ""
+      }, {
+        "code" : "4540002",
+        "display" : "Adenosine diphosphate (ADP) deaminase",
+        "definition" : ""
+      }, {
+        "code" : "4546008",
+        "display" : "Tetradecanoic acid",
+        "definition" : ""
+      }, {
+        "code" : "4555006",
+        "display" : "Blood group antibody Rils",
+        "definition" : ""
+      }, {
+        "code" : "4560005",
+        "display" : "Hemoglobin Mizuho",
+        "definition" : ""
+      }, {
+        "code" : "4561009",
+        "display" : "Arginine decarboxylase",
+        "definition" : ""
+      }, {
+        "code" : "4564001",
+        "display" : "Blood group antibody Sisson",
+        "definition" : ""
+      }, {
+        "code" : "4567008",
+        "display" : "Galactose-1-phosphate thymidylyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "4582003",
+        "display" : "Blood group antigen N^A^",
+        "definition" : ""
+      }, {
+        "code" : "4591004",
+        "display" : "MNS22 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "4610008",
+        "display" : "Senile cardiac protein",
+        "definition" : ""
+      }, {
+        "code" : "4616002",
+        "display" : "Triclobisonium chloride",
+        "definition" : ""
+      }, {
+        "code" : "4629002",
+        "display" : "Hypoglycin B",
+        "definition" : ""
+      }, {
+        "code" : "4635002",
+        "display" : "Arterial blood",
+        "definition" : ""
+      }, {
+        "code" : "4643007",
+        "display" : "Calf thymus ribonuclease H",
+        "definition" : ""
+      }, {
+        "code" : "4656000",
+        "display" : "Alcian blue 8GX stain",
+        "definition" : ""
+      }, {
+        "code" : "4674009",
+        "display" : "2",
+        "definition" : "3-Dihydroxybenzoate serine ligase"
+      }, {
+        "code" : "4681002",
+        "display" : "Potassium permanganate",
+        "definition" : ""
+      }, {
+        "code" : "4693006",
+        "display" : "Chromium^51^ albumin",
+        "definition" : ""
+      }, {
+        "code" : "4700006",
+        "display" : "Bovine insulin",
+        "definition" : ""
+      }, {
+        "code" : "4706000",
+        "display" : "Chlorine monoxide",
+        "definition" : ""
+      }, {
+        "code" : "4714006",
+        "display" : "^183m^Osmium",
+        "definition" : ""
+      }, {
+        "code" : "4728000",
+        "display" : "Scopulariopsis proteinase",
+        "definition" : ""
+      }, {
+        "code" : "4731004",
+        "display" : "Aluminum pyro powder",
+        "definition" : ""
+      }, {
+        "code" : "4732006",
+        "display" : "Oncogene protein P55",
+        "definition" : "V-MYC"
+      }, {
+        "code" : "4746006",
+        "display" : "Hemoglobin Mito",
+        "definition" : ""
+      }, {
+        "code" : "4761007",
+        "display" : "CD30 - Cluster of differentiation antigen 30",
+        "definition" : ""
+      }, {
+        "code" : "4762000",
+        "display" : "Platelet antigen HPA-3b",
+        "definition" : ""
+      }, {
+        "code" : "4777008",
+        "display" : "Fluroxene",
+        "definition" : ""
+      }, {
+        "code" : "4780009",
+        "display" : "Secbutabarbital sodium",
+        "definition" : ""
+      }, {
+        "code" : "4786003",
+        "display" : "beta-1",
+        "definition" : "4-Mannosyl-glycoprotein beta-1"
+      }, {
+        "code" : "4789005",
+        "display" : "Blood group antibody Bultar",
+        "definition" : ""
+      }, {
+        "code" : "4793004",
+        "display" : "Azobenzene reductase",
+        "definition" : ""
+      }, {
+        "code" : "4814001",
+        "display" : "Valethamate",
+        "definition" : ""
+      }, {
+        "code" : "4824009",
+        "display" : "MAO - Monoamine oxidase",
+        "definition" : ""
+      }, {
+        "code" : "4825005",
+        "display" : "Peptidyl-glycinamidase",
+        "definition" : ""
+      }, {
+        "code" : "4831008",
+        "display" : "Arabinose-5-phosphate isomerase",
+        "definition" : ""
+      }, {
+        "code" : "4832001",
+        "display" : "Technetium Tc^99m^ mebrofenin",
+        "definition" : ""
+      }, {
+        "code" : "4833006",
+        "display" : "Glucan endo-1",
+        "definition" : "3-alpha-glucosidase"
+      }, {
+        "code" : "4844003",
+        "display" : "3",
+        "definition" : "3' Diiodothyronine"
+      }, {
+        "code" : "4864008",
+        "display" : "AMP - Adenosine monophosphate",
+        "definition" : ""
+      }, {
+        "code" : "4872005",
+        "display" : "Glucosulfone",
+        "definition" : ""
+      }, {
+        "code" : "4878009",
+        "display" : "Human leukocyte antigen Dw3",
+        "definition" : ""
+      }, {
+        "code" : "4882006",
+        "display" : "Ichthyoallyeinotoxin",
+        "definition" : ""
+      }, {
+        "code" : "4889002",
+        "display" : "Xylulokinase",
+        "definition" : ""
+      }, {
+        "code" : "4901003",
+        "display" : "Pyruvate oxidase (coenzyme A-acetylating)",
+        "definition" : ""
+      }, {
+        "code" : "4925006",
+        "display" : "Oncogene protein V-ABC",
+        "definition" : ""
+      }, {
+        "code" : "4933007",
+        "display" : "Leukocyte M1",
+        "definition" : ""
+      }, {
+        "code" : "4940008",
+        "display" : "Tattoo dye",
+        "definition" : ""
+      }, {
+        "code" : "4955004",
+        "display" : "Neoplastic structural gene",
+        "definition" : ""
+      }, {
+        "code" : "4962008",
+        "display" : "Tree bark",
+        "definition" : ""
+      }, {
+        "code" : "4963003",
+        "display" : "Neutral amino acid",
+        "definition" : ""
+      }, {
+        "code" : "4965005",
+        "display" : "Glutathione reductase",
+        "definition" : ""
+      }, {
+        "code" : "4968007",
+        "display" : "Acumentin",
+        "definition" : ""
+      }, {
+        "code" : "4986005",
+        "display" : "Magnesium borate",
+        "definition" : ""
+      }, {
+        "code" : "5003005",
+        "display" : "Hemoglobin Swan River",
+        "definition" : ""
+      }, {
+        "code" : "5004004",
+        "display" : "Blood group antibody Panzar",
+        "definition" : ""
+      }, {
+        "code" : "5007006",
+        "display" : "Papain",
+        "definition" : ""
+      }, {
+        "code" : "5024000",
+        "display" : "Fresh water",
+        "definition" : ""
+      }, {
+        "code" : "5031001",
+        "display" : "3-3'Dichlorobenzidine",
+        "definition" : ""
+      }, {
+        "code" : "5040002",
+        "display" : "Cesium",
+        "definition" : ""
+      }, {
+        "code" : "5043000",
+        "display" : "Erythrosin Y stain",
+        "definition" : ""
+      }, {
+        "code" : "5045007",
+        "display" : "Oncogene protein TCL4",
+        "definition" : ""
+      }, {
+        "code" : "5059000",
+        "display" : "^97^Technetium",
+        "definition" : ""
+      }, {
+        "code" : "5060005",
+        "display" : "^132^Cesium",
+        "definition" : ""
+      }, {
+        "code" : "5061009",
+        "display" : "Protein-methionine-S-oxide reductase",
+        "definition" : ""
+      }, {
+        "code" : "5064001",
+        "display" : "Blood group antibody D 1276",
+        "definition" : ""
+      }, {
+        "code" : "5081005",
+        "display" : "RH31 (ISBT symbol)",
+        "definition" : ""
+      }, {
+        "code" : "5086000",
+        "display" : "Gelsolin",
+        "definition" : ""
+      }, {
+        "code" : "5094007",
+        "display" : "Blood group antigen Rios",
+        "definition" : ""
+      }, {
+        "code" : "5098005",
+        "display" : "Fennel oil",
+        "definition" : ""
+      }, {
+        "code" : "5109006",
+        "display" : "Methylated-deoxyribonucleic acid-protein-cysteine methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "5142007",
+        "display" : "Coagulation factor II Houston variant",
+        "definition" : ""
+      }, {
+        "code" : "5160007",
+        "display" : "Metal compound",
+        "definition" : ""
+      }, {
+        "code" : "5163009",
+        "display" : "Scombrotoxin",
+        "definition" : ""
+      }, {
+        "code" : "5167005",
+        "display" : "Zinc chloride fumes",
+        "definition" : ""
+      }, {
+        "code" : "5172001",
+        "display" : "Coagulation factor Xa",
+        "definition" : ""
+      }, {
+        "code" : "5179005",
+        "display" : "Connective tissue fiber",
+        "definition" : ""
+      }, {
+        "code" : "5200001",
+        "display" : "trans-Epoxysuccinate hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "5206007",
+        "display" : "Cyanate compound",
+        "definition" : ""
+      }, {
+        "code" : "5220000",
+        "display" : "Bacitracin",
+        "definition" : ""
+      }, {
+        "code" : "5226006",
+        "display" : "Flavone O^7^-beta-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "5250008",
+        "display" : "Thymus-independent antigen",
+        "definition" : ""
+      }, {
+        "code" : "5252000",
+        "display" : "Hafnium radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "5253005",
+        "display" : "Hemoglobin Woodville",
+        "definition" : ""
+      }, {
+        "code" : "5259009",
+        "display" : "Blood group antigen Braden",
+        "definition" : ""
+      }, {
+        "code" : "5289002",
+        "display" : "Scilliroside",
+        "definition" : ""
+      }, {
+        "code" : "5303002",
+        "display" : "Hemoglobin Hoshida",
+        "definition" : ""
+      }, {
+        "code" : "5305009",
+        "display" : "Polynucleotide",
+        "definition" : ""
+      }, {
+        "code" : "5307001",
+        "display" : "Blood group antigen Hamet",
+        "definition" : ""
+      }, {
+        "code" : "5312000",
+        "display" : "^65^Zinc",
+        "definition" : ""
+      }, {
+        "code" : "5323001",
+        "display" : "Uridine diphosphate glucuronic acid",
+        "definition" : ""
+      }, {
+        "code" : "5330007",
+        "display" : "Actin-binding protein",
+        "definition" : ""
+      }, {
+        "code" : "5339008",
+        "display" : "L-Glycol dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "5340005",
+        "display" : "Blood group antigen Swietlik",
+        "definition" : ""
+      }, {
+        "code" : "5392001",
+        "display" : "Propylene glycol monomethyl ether",
+        "definition" : ""
+      }, {
+        "code" : "5395004",
+        "display" : "Pyridoxamine-phosphate oxidase",
+        "definition" : ""
+      }, {
+        "code" : "5404007",
+        "display" : "Lymphocyte antigen CD45RA",
+        "definition" : ""
+      }, {
+        "code" : "5405008",
+        "display" : "^60^Cobalt",
+        "definition" : ""
+      }, {
+        "code" : "5406009",
+        "display" : "beta-L-Arabinosidase",
+        "definition" : ""
+      }, {
+        "code" : "5420002",
+        "display" : "Accessory sinus mucus",
+        "definition" : ""
+      }, {
+        "code" : "5439007",
+        "display" : "Blood group antibody Do^a^",
+        "definition" : ""
+      }, {
+        "code" : "5442001",
+        "display" : "Page blue 83",
+        "definition" : ""
+      }, {
+        "code" : "5453007",
+        "display" : "Iridium isotope",
+        "definition" : ""
+      }, {
+        "code" : "5471000",
+        "display" : "Hemoglobin G-Coushatta",
+        "definition" : ""
+      }, {
+        "code" : "5474008",
+        "display" : "Propionate-CoA ligase",
+        "definition" : ""
+      }, {
+        "code" : "5477001",
+        "display" : "Ferric subsulfate",
+        "definition" : ""
+      }, {
+        "code" : "5483003",
+        "display" : "Oxalate CoA-transferase",
+        "definition" : ""
+      }, {
+        "code" : "5504009",
+        "display" : "Blood group antigen Fuerhart",
+        "definition" : ""
+      }, {
+        "code" : "5511008",
+        "display" : "Inosinate nucleosidase",
+        "definition" : ""
+      }, {
+        "code" : "5513006",
+        "display" : "Immunoglobulin",
+        "definition" : "Alpha chain"
+      }, {
+        "code" : "5515004",
+        "display" : "Rhodium fumes",
+        "definition" : ""
+      }, {
+        "code" : "5533005",
+        "display" : "Blood group antibody Kp^a^",
+        "definition" : ""
+      }, {
+        "code" : "5537006",
+        "display" : "Immunoglobulin",
+        "definition" : "Delta chain"
+      }, {
+        "code" : "5540006",
+        "display" : "Calcium",
+        "definition" : ""
+      }, {
+        "code" : "5547009",
+        "display" : "^233^Plutonium",
+        "definition" : ""
+      }, {
+        "code" : "5548004",
+        "display" : "2-Dehydro-3-deoxy-D-pentonate aldolase",
+        "definition" : ""
+      }, {
+        "code" : "5568005",
+        "display" : "Hemoglobin Hijiyama",
+        "definition" : ""
+      }, {
+        "code" : "5573004",
+        "display" : "Blood group antigen Oca",
+        "definition" : ""
+      }, {
+        "code" : "5589001",
+        "display" : "Licodione O^2'^-methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "5590005",
+        "display" : "Beryllium radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "5628003",
+        "display" : "Hemoglobin I-High Wycombe",
+        "definition" : ""
+      }, {
+        "code" : "5629006",
+        "display" : "Cytidylic acid",
+        "definition" : ""
+      }, {
+        "code" : "5637003",
+        "display" : "HLA-DQw6 antigen",
+        "definition" : ""
+      }, {
+        "code" : "5641004",
+        "display" : "Valproate semisodium",
+        "definition" : ""
+      }, {
+        "code" : "5647000",
+        "display" : "Griseofulvin ultramicrosize",
+        "definition" : ""
+      }, {
+        "code" : "5656008",
+        "display" : "^116m^Antimony",
+        "definition" : ""
+      }, {
+        "code" : "5657004",
+        "display" : "Coal tar topical solution",
+        "definition" : ""
+      }, {
+        "code" : "5659001",
+        "display" : "Hemoglobin J-Tongariki",
+        "definition" : ""
+      }, {
+        "code" : "5670008",
+        "display" : "Gold isotope",
+        "definition" : ""
+      }, {
+        "code" : "5681006",
+        "display" : "Ceftizoxime sodium",
+        "definition" : ""
+      }, {
+        "code" : "5691000",
+        "display" : "Absorbable gelatin sponge",
+        "definition" : ""
+      }, {
+        "code" : "5692007",
+        "display" : "Cyanocobalamin Co^58^",
+        "definition" : ""
+      }, {
+        "code" : "5699003",
+        "display" : "Somatomedin C",
+        "definition" : ""
+      }, {
+        "code" : "5700002",
+        "display" : "Blood group antibody Gomez",
+        "definition" : ""
+      }, {
+        "code" : "5702005",
+        "display" : "^106m^Silver",
+        "definition" : ""
+      }, {
+        "code" : "5704006",
+        "display" : "Galactokinase",
+        "definition" : ""
+      }, {
+        "code" : "5705007",
+        "display" : "1",
+        "definition" : "3-Propanediol dehydrogenase"
+      }, {
+        "code" : "5739006",
+        "display" : "Stramonium",
+        "definition" : ""
+      }, {
+        "code" : "5746002",
+        "display" : "^118m^Antimony",
+        "definition" : ""
+      }, {
+        "code" : "5757007",
+        "display" : "HLA-Cw8 antigen",
+        "definition" : ""
+      }, {
+        "code" : "5762008",
+        "display" : "Heterogeneous nuclear RNA",
+        "definition" : ""
+      }, {
+        "code" : "5764009",
+        "display" : "^242^Plutonium",
+        "definition" : ""
+      }, {
+        "code" : "5767002",
+        "display" : "Sulfamerazine",
+        "definition" : ""
+      }, {
+        "code" : "5774007",
+        "display" : "White petrolatum",
+        "definition" : ""
+      }, {
+        "code" : "5800007",
+        "display" : "tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "5813001",
+        "display" : "Malate dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "5826002",
+        "display" : "Ethyl-4-bis-(hydroxypropyl)-1-aminobenzoate",
+        "definition" : ""
+      }, {
+        "code" : "5827006",
+        "display" : "Crotonaldehyde",
+        "definition" : ""
+      }, {
+        "code" : "5829009",
+        "display" : "Hemoglobin Vaasa",
+        "definition" : ""
+      }, {
+        "code" : "5830004",
+        "display" : "Hemoglobin Bart",
+        "definition" : ""
+      }, {
+        "code" : "5840001",
+        "display" : "Blood group antibody Wj",
+        "definition" : ""
+      }, {
+        "code" : "5858007",
+        "display" : "^110m^Indium",
+        "definition" : ""
+      }, {
+        "code" : "5863006",
+        "display" : "Vitexin beta-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "5896008",
+        "display" : "Hellebrin",
+        "definition" : ""
+      }, {
+        "code" : "5899001",
+        "display" : "Bacterial structural gene",
+        "definition" : ""
+      }, {
+        "code" : "5907009",
+        "display" : "Quinidine polygalacturonate",
+        "definition" : ""
+      }, {
+        "code" : "5910002",
+        "display" : "Oncogene protein PP60",
+        "definition" : "V-SRC"
+      }, {
+        "code" : "5915007",
+        "display" : "Blood group antigen Gladding",
+        "definition" : ""
+      }, {
+        "code" : "5927005",
+        "display" : "Lactaldehyde dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "5931004",
+        "display" : "Technetium Tc^99m^ sulfur colloid",
+        "definition" : ""
+      }, {
+        "code" : "5932006",
+        "display" : "Cysteine",
+        "definition" : ""
+      }, {
+        "code" : "5950004",
+        "display" : "3'",
+        "definition" : "5'-Cyclic-nucleotide phosphodiesterase"
+      }, {
+        "code" : "5955009",
+        "display" : "Diethylene glycol",
+        "definition" : ""
+      }, {
+        "code" : "5977008",
+        "display" : "Blood group antigen Bullock",
+        "definition" : ""
+      }, {
+        "code" : "5989005",
+        "display" : "Immunoglobulin",
+        "definition" : "GM>17< allotype"
+      }, {
+        "code" : "5991002",
+        "display" : "D-Fuconate dehydratase",
+        "definition" : ""
+      }, {
+        "code" : "6021003",
+        "display" : "^88^Yttrium",
+        "definition" : ""
+      }, {
+        "code" : "6038004",
+        "display" : "Oxygen radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "6043006",
+        "display" : "Bone cement",
+        "definition" : ""
+      }, {
+        "code" : "6044000",
+        "display" : "Carbon disulfide",
+        "definition" : ""
+      }, {
+        "code" : "6054001",
+        "display" : "Doxylamine succinate",
+        "definition" : ""
+      }, {
+        "code" : "6056004",
+        "display" : "Blood group antibody Wk^a^",
+        "definition" : ""
+      }, {
+        "code" : "6068008",
+        "display" : "Blood group antigen Mil",
+        "definition" : ""
+      }, {
+        "code" : "6083003",
+        "display" : "Hydroxylysine",
+        "definition" : ""
+      }, {
+        "code" : "6085005",
+        "display" : "Synovial fluid",
+        "definition" : ""
+      }, {
+        "code" : "6088007",
+        "display" : "Benzfetamine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "6089004",
+        "display" : "Lochia alba",
+        "definition" : ""
+      }, {
+        "code" : "6091007",
+        "display" : "Blood group antibody L Harris",
+        "definition" : ""
+      }, {
+        "code" : "6107003",
+        "display" : "Asparagusate reductase (NADH)",
+        "definition" : ""
+      }, {
+        "code" : "6109000",
+        "display" : "Aromatic-amino-acid aminotransferase",
+        "definition" : ""
+      }, {
+        "code" : "6115000",
+        "display" : "Blood group antibody Anuszewska",
+        "definition" : ""
+      }, {
+        "code" : "6135004",
+        "display" : "Blood group antigen Duck",
+        "definition" : ""
+      }, {
+        "code" : "6138002",
+        "display" : "Blood group antigen Le Provost",
+        "definition" : ""
+      }, {
+        "code" : "6162007",
+        "display" : "Meclocycline",
+        "definition" : ""
+      }, {
+        "code" : "6170002",
+        "display" : "Heat labile antibody",
+        "definition" : ""
+      }, {
+        "code" : "6172005",
+        "display" : "Fatty-acid methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6178009",
+        "display" : "Lymphocyte antigen CD63",
+        "definition" : ""
+      }, {
+        "code" : "6179001",
+        "display" : "o-Methy-bufotenine",
+        "definition" : ""
+      }, {
+        "code" : "6182006",
+        "display" : "Chloroacetone",
+        "definition" : ""
+      }, {
+        "code" : "6197009",
+        "display" : "Blood group antigen Zd",
+        "definition" : ""
+      }, {
+        "code" : "6237004",
+        "display" : "Bemegride",
+        "definition" : ""
+      }, {
+        "code" : "6249003",
+        "display" : "Potassium metabisulfite",
+        "definition" : ""
+      }, {
+        "code" : "6256009",
+        "display" : "Ribose isomerase",
+        "definition" : ""
+      }, {
+        "code" : "6257000",
+        "display" : "Sodium chloride Na^22^",
+        "definition" : ""
+      }, {
+        "code" : "6260007",
+        "display" : "Protokylol",
+        "definition" : ""
+      }, {
+        "code" : "6261006",
+        "display" : "Indoklon",
+        "definition" : ""
+      }, {
+        "code" : "6263009",
+        "display" : "Plant residue",
+        "definition" : ""
+      }, {
+        "code" : "6264003",
+        "display" : "Diazinon",
+        "definition" : ""
+      }, {
+        "code" : "6287006",
+        "display" : "Methidathion",
+        "definition" : ""
+      }, {
+        "code" : "6291001",
+        "display" : "N-Acetylglucosamine-1-phosphodiester N-acetylglucosaminidase",
+        "definition" : ""
+      }, {
+        "code" : "6301006",
+        "display" : "^178^Tantalum",
+        "definition" : ""
+      }, {
+        "code" : "6310003",
+        "display" : "Particulate antigen",
+        "definition" : ""
+      }, {
+        "code" : "6314007",
+        "display" : "Phenol beta-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6333002",
+        "display" : "Squill extract",
+        "definition" : ""
+      }, {
+        "code" : "6338006",
+        "display" : "Imidazolonepropionase",
+        "definition" : ""
+      }, {
+        "code" : "6356006",
+        "display" : "Chlorodiallylacetamide",
+        "definition" : ""
+      }, {
+        "code" : "6360009",
+        "display" : "Kallidin II",
+        "definition" : ""
+      }, {
+        "code" : "6367007",
+        "display" : "^95m^Technetium",
+        "definition" : ""
+      }, {
+        "code" : "6386004",
+        "display" : "N-Acetylneuraminate O^4^-acetyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6394006",
+        "display" : "Phentermine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "6401007",
+        "display" : "Lichenase",
+        "definition" : ""
+      }, {
+        "code" : "6409009",
+        "display" : "Morpholine",
+        "definition" : ""
+      }, {
+        "code" : "6411000",
+        "display" : "Interleukin-12",
+        "definition" : ""
+      }, {
+        "code" : "6422001",
+        "display" : "HLA-DRw14 antigen",
+        "definition" : ""
+      }, {
+        "code" : "6451002",
+        "display" : "Chlorobenzilate",
+        "definition" : ""
+      }, {
+        "code" : "6455006",
+        "display" : "Chloroprene",
+        "definition" : ""
+      }, {
+        "code" : "6469006",
+        "display" : "delta^1^-Piperideine-2-carboxylate reductase",
+        "definition" : ""
+      }, {
+        "code" : "6478000",
+        "display" : "6-Phosphofructokinase",
+        "definition" : ""
+      }, {
+        "code" : "6495008",
+        "display" : "Fibrinogen Montreal II",
+        "definition" : ""
+      }, {
+        "code" : "6507009",
+        "display" : "Blood group antigen Much",
+        "definition" : ""
+      }, {
+        "code" : "6513000",
+        "display" : "Flumethiazide",
+        "definition" : ""
+      }, {
+        "code" : "6516008",
+        "display" : "Indium^111^-Fe(OH)>3<",
+        "definition" : ""
+      }, {
+        "code" : "6524003",
+        "display" : "Distilled spirits",
+        "definition" : ""
+      }, {
+        "code" : "6529008",
+        "display" : "Blood group antigen Cl^a^",
+        "definition" : ""
+      }, {
+        "code" : "6532006",
+        "display" : "Macrophage activating factor",
+        "definition" : ""
+      }, {
+        "code" : "6590001",
+        "display" : "Galactosylceramidase",
+        "definition" : ""
+      }, {
+        "code" : "6592009",
+        "display" : "HLA-Dw12 antigen",
+        "definition" : ""
+      }, {
+        "code" : "6602005",
+        "display" : "Aminoacridine",
+        "definition" : ""
+      }, {
+        "code" : "6611005",
+        "display" : "Diethylaminoethanol",
+        "definition" : ""
+      }, {
+        "code" : "6612003",
+        "display" : "Chloramphenicol sodium succinate",
+        "definition" : ""
+      }, {
+        "code" : "6619007",
+        "display" : "Bilirubin Y transport protein",
+        "definition" : ""
+      }, {
+        "code" : "6642000",
+        "display" : "Opsonin",
+        "definition" : ""
+      }, {
+        "code" : "6644004",
+        "display" : "Homoserine dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "6671004",
+        "display" : "Blood group antigen Caw",
+        "definition" : ""
+      }, {
+        "code" : "6672006",
+        "display" : "Phosphoadenylate 3'-nucleotidase",
+        "definition" : ""
+      }, {
+        "code" : "6699008",
+        "display" : "Titanium radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "6701008",
+        "display" : "Lissamine fast red B",
+        "definition" : ""
+      }, {
+        "code" : "6702001",
+        "display" : "Ethyl mercaptoethyl diethyl thiophosphate",
+        "definition" : ""
+      }, {
+        "code" : "6709005",
+        "display" : "Gentamicin 2''-nucleotidyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6710000",
+        "display" : "Nitric oxide",
+        "definition" : ""
+      }, {
+        "code" : "6713003",
+        "display" : "^91^Yttrium",
+        "definition" : ""
+      }, {
+        "code" : "6717002",
+        "display" : "Nifuroxime",
+        "definition" : ""
+      }, {
+        "code" : "6725000",
+        "display" : "Methylene blue",
+        "definition" : ""
+      }, {
+        "code" : "6730001",
+        "display" : "^234^Uranium",
+        "definition" : ""
+      }, {
+        "code" : "6741004",
+        "display" : "Anti DNA antibody",
+        "definition" : ""
+      }, {
+        "code" : "6755007",
+        "display" : "TL antigen",
+        "definition" : ""
+      }, {
+        "code" : "6786001",
+        "display" : "Silver difluoride",
+        "definition" : ""
+      }, {
+        "code" : "6790004",
+        "display" : "Aminopterin",
+        "definition" : ""
+      }, {
+        "code" : "6792007",
+        "display" : "Veratrine",
+        "definition" : ""
+      }, {
+        "code" : "6808006",
+        "display" : "Ferrous iron compound",
+        "definition" : ""
+      }, {
+        "code" : "6809003",
+        "display" : "Phomopsin",
+        "definition" : ""
+      }, {
+        "code" : "6814004",
+        "display" : "Discadenine synthase",
+        "definition" : ""
+      }, {
+        "code" : "6817006",
+        "display" : "Oxidized glutathione",
+        "definition" : ""
+      }, {
+        "code" : "6826009",
+        "display" : "Sterol hormone",
+        "definition" : ""
+      }, {
+        "code" : "6837005",
+        "display" : "Dextropropoxyphene napsylate",
+        "definition" : ""
+      }, {
+        "code" : "6854002",
+        "display" : "^188^Platinum",
+        "definition" : ""
+      }, {
+        "code" : "6865007",
+        "display" : "Theophylline calcium salicylate",
+        "definition" : ""
+      }, {
+        "code" : "6873003",
+        "display" : "Cefapirin sodium",
+        "definition" : ""
+      }, {
+        "code" : "6879004",
+        "display" : "5",
+        "definition" : "8"
+      }, {
+        "code" : "6881002",
+        "display" : "Magnesium fumes",
+        "definition" : ""
+      }, {
+        "code" : "6884005",
+        "display" : "(S)-3-Amino-2-methylpropionate aminotransferase",
+        "definition" : ""
+      }, {
+        "code" : "6890009",
+        "display" : "3-Deoxy-manno-octulosonate-8-phosphatase",
+        "definition" : ""
+      }, {
+        "code" : "6896003",
+        "display" : "Thiopurine methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6910009",
+        "display" : "Sodium fluoride",
+        "definition" : ""
+      }, {
+        "code" : "6911008",
+        "display" : "Deoxycytidylate methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6916003",
+        "display" : "Bowieine",
+        "definition" : ""
+      }, {
+        "code" : "6924008",
+        "display" : "Exopolyphosphatase",
+        "definition" : ""
+      }, {
+        "code" : "6925009",
+        "display" : "Leucine acetyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "6927001",
+        "display" : "^121^Tin",
+        "definition" : ""
+      }, {
+        "code" : "6937006",
+        "display" : "Thymidylate synthase",
+        "definition" : ""
+      }, {
+        "code" : "6945001",
+        "display" : "Blood group antigen Le^bH^",
+        "definition" : ""
+      }, {
+        "code" : "6952004",
+        "display" : "^121m^Tin",
+        "definition" : ""
+      }, {
+        "code" : "6958000",
+        "display" : "Blood group antibody Frando",
+        "definition" : ""
+      }, {
+        "code" : "6961004",
+        "display" : "Lysolecithin acylmutase",
+        "definition" : ""
+      }, {
+        "code" : "6970001",
+        "display" : "4-Hydroxyproline epimerase",
+        "definition" : ""
+      }, {
+        "code" : "6973004",
+        "display" : "Chromium^51^ chloride",
+        "definition" : ""
+      }, {
+        "code" : "6983000",
+        "display" : "Acrylamide",
+        "definition" : ""
+      }, {
+        "code" : "6992002",
+        "display" : "Triflupromazine hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "6993007",
+        "display" : "Seminal fluid",
+        "definition" : ""
+      }, {
+        "code" : "6999006",
+        "display" : "Ammonium compound",
+        "definition" : ""
+      }, {
+        "code" : "7008002",
+        "display" : "beta-Carotene 15",
+        "definition" : "15'-dioxygenase"
+      }, {
+        "code" : "7018007",
+        "display" : "Malate-CoA ligase",
+        "definition" : ""
+      }, {
+        "code" : "7029006",
+        "display" : "Blood group antigen Greenlee",
+        "definition" : ""
+      }, {
+        "code" : "7030001",
+        "display" : "Globoside",
+        "definition" : ""
+      }, {
+        "code" : "7034005",
+        "display" : "Diclofenac",
+        "definition" : ""
+      }, {
+        "code" : "7045008",
+        "display" : "Lycorine",
+        "definition" : ""
+      }, {
+        "code" : "7047000",
+        "display" : "Asphyxiant atmosphere",
+        "definition" : ""
+      }, {
+        "code" : "7049002",
+        "display" : "Pyruvate carboxylase",
+        "definition" : ""
+      }, {
+        "code" : "7054006",
+        "display" : "Hemoglobin Poissy",
+        "definition" : ""
+      }, {
+        "code" : "7056008",
+        "display" : "3-Propylmalate synthase",
+        "definition" : ""
+      }, {
+        "code" : "7059001",
+        "display" : "N-Acylneuraminate-9-phosphatase",
+        "definition" : ""
+      }, {
+        "code" : "7061005",
+        "display" : "Anthocyanidin O^3^-glucosyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "7070008",
+        "display" : "Convallamarin",
+        "definition" : ""
+      }, {
+        "code" : "7084003",
+        "display" : "Fibrinogen Buenos Aires II",
+        "definition" : ""
+      }, {
+        "code" : "7110002",
+        "display" : "^69^Germanium",
+        "definition" : ""
+      }, {
+        "code" : "7120007",
+        "display" : "Antigen",
+        "definition" : ""
+      }, {
+        "code" : "7132006",
+        "display" : "^73^Gallium",
+        "definition" : ""
+      }, {
+        "code" : "7139002",
+        "display" : "Acid-CoA ligase (GDP-forming)",
+        "definition" : ""
+      }, {
+        "code" : "7146006",
+        "display" : "Cyclohexene oxide",
+        "definition" : ""
+      }, {
+        "code" : "7152007",
+        "display" : "Chlorthion",
+        "definition" : ""
+      }, {
+        "code" : "7156005",
+        "display" : "Phosphorus isotope",
+        "definition" : ""
+      }, {
+        "code" : "7158006",
+        "display" : "HLA-Dw19 antigen",
+        "definition" : ""
+      }, {
+        "code" : "7161007",
+        "display" : "Complement component C2a",
+        "definition" : ""
+      }, {
+        "code" : "7179006",
+        "display" : "Prekallikrein",
+        "definition" : ""
+      }, {
+        "code" : "7191002",
+        "display" : "Methenyltetrahydrofolate cyclohydrolase",
+        "definition" : ""
+      }, {
+        "code" : "7208009",
+        "display" : "Thiol oxidase",
+        "definition" : ""
+      }, {
+        "code" : "7211005",
+        "display" : "Blood group antibody Haakestad",
+        "definition" : ""
+      }, {
+        "code" : "7237008",
+        "display" : "Galactonate dehydratase",
+        "definition" : ""
+      }, {
+        "code" : "7243005",
+        "display" : "Methyl isocyanate",
+        "definition" : ""
+      }, {
+        "code" : "7269004",
+        "display" : "Th - Thorium",
+        "definition" : ""
+      }, {
+        "code" : "7271004",
+        "display" : "Mixed dust",
+        "definition" : ""
+      }, {
+        "code" : "7280004",
+        "display" : "dTDP4-dehydrorhamnose reductase",
+        "definition" : ""
+      }, {
+        "code" : "7281000",
+        "display" : "Technetium Tc^99m^ lidofenin",
+        "definition" : ""
+      }, {
+        "code" : "7284008",
+        "display" : "Mercaptan compound",
+        "definition" : ""
+      }, {
+        "code" : "7294003",
+        "display" : "tert-Butyl acetate",
+        "definition" : ""
+      }, {
+        "code" : "7302008",
+        "display" : "Ambuphylline",
+        "definition" : ""
+      }, {
+        "code" : "7318002",
+        "display" : "Bacteriochlorophyll",
+        "definition" : ""
+      }, {
+        "code" : "7321000",
+        "display" : "Pyrimidine",
+        "definition" : ""
+      }, {
+        "code" : "7325009",
+        "display" : "Calcium hydroxide",
+        "definition" : ""
+      }, {
+        "code" : "7327001",
+        "display" : "Sulfurous acid",
+        "definition" : ""
+      }, {
+        "code" : "7328006",
+        "display" : "Red petrolatum",
+        "definition" : ""
+      }, {
+        "code" : "7330008",
+        "display" : "Shellac",
+        "definition" : ""
+      }, {
+        "code" : "7337006",
+        "display" : "Blood group antibody Tr^a^",
+        "definition" : ""
+      }, {
+        "code" : "7348004",
+        "display" : "Factor II",
+        "definition" : ""
+      }, {
+        "code" : "7382005",
+        "display" : "Aminoalcohol ester",
+        "definition" : ""
+      }, {
+        "code" : "7401000",
+        "display" : "Heme-hemopexin complex",
+        "definition" : ""
+      }, {
+        "code" : "7411007",
+        "display" : "Blood group antibody HLA-B8",
+        "definition" : ""
+      }, {
+        "code" : "7427000",
+        "display" : "Sepiapterin reductase",
+        "definition" : ""
+      }, {
+        "code" : "7434003",
+        "display" : "Erythrosin B",
+        "definition" : ""
+      }, {
+        "code" : "7446004",
+        "display" : "Ruthenium",
+        "definition" : ""
+      }, {
+        "code" : "7451005",
+        "display" : "Tobramycin ophthalmic agent",
+        "definition" : ""
+      }, {
+        "code" : "7460002",
+        "display" : "^127^Tellurium",
+        "definition" : ""
+      }, {
+        "code" : "7470000",
+        "display" : "p-tert-Butyltoluene",
+        "definition" : ""
+      }, {
+        "code" : "7489000",
+        "display" : "Homocytotropic antibody",
+        "definition" : ""
+      }, {
+        "code" : "7503004",
+        "display" : "^72^Gallium",
+        "definition" : ""
+      }, {
+        "code" : "7509000",
+        "display" : "Mannitol hexanitrate",
+        "definition" : ""
+      }, {
+        "code" : "7515000",
+        "display" : "Hepatotoxic mycotoxin",
+        "definition" : ""
+      }, {
+        "code" : "7537007",
+        "display" : "Stizolobinate synthase",
+        "definition" : ""
+      }, {
+        "code" : "7547005",
+        "display" : "Hemoglobin Lincoln Park",
+        "definition" : ""
+      }, {
+        "code" : "7549008",
+        "display" : "Fibrinogen Bethesda I",
+        "definition" : ""
+      }, {
+        "code" : "7588005",
+        "display" : "Blood group antibody Sk^a^",
+        "definition" : ""
+      }, {
+        "code" : "7608003",
+        "display" : "Triethylene glycol",
+        "definition" : ""
+      }, {
+        "code" : "7616007",
+        "display" : "Blood group antibody Pruitt",
+        "definition" : ""
+      }, {
+        "code" : "7648006",
+        "display" : "HLA-Bw70 antigen",
+        "definition" : ""
+      }, {
+        "code" : "7661006",
+        "display" : "Fish bone",
+        "definition" : ""
+      }, {
+        "code" : "7670009",
+        "display" : "Aminobutyraldehyde dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "7675004",
+        "display" : "Blood group antigen Towey",
+        "definition" : ""
+      }, {
+        "code" : "7679005",
+        "display" : "Strong oxidizing compound",
+        "definition" : ""
+      }, {
+        "code" : "7685003",
+        "display" : "Blood group antibody Bg^c^",
+        "definition" : ""
+      }, {
+        "code" : "7696006",
+        "display" : "Ferrovanadium dust",
+        "definition" : ""
+      }, {
+        "code" : "7716001",
+        "display" : "Isovaleryl coenzyme A dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "7737009",
+        "display" : "Chlortetracycline hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "7738004",
+        "display" : "HLA-B49 antigen",
+        "definition" : ""
+      }, {
+        "code" : "7761002",
+        "display" : "^111^Silver",
+        "definition" : ""
+      }, {
+        "code" : "7770004",
+        "display" : "^89^Strontium",
+        "definition" : ""
+      }, {
+        "code" : "7774008",
+        "display" : "Neo-b-vitamin A>1<",
+        "definition" : ""
+      }, {
+        "code" : "7779003",
+        "display" : "^103^Ruthenium",
+        "definition" : ""
+      }, {
+        "code" : "7785005",
+        "display" : "Sphingomyelin phosphodiesterase D",
+        "definition" : ""
+      }, {
+        "code" : "7790008",
+        "display" : "1-Monoacylglycerol",
+        "definition" : ""
+      }, {
+        "code" : "7791007",
+        "display" : "Soy protein",
+        "definition" : ""
+      }, {
+        "code" : "7795003",
+        "display" : "Oxalate oxidase",
+        "definition" : ""
+      }, {
+        "code" : "7801007",
+        "display" : "Tetrahydroxypteridine cycloisomerase",
+        "definition" : ""
+      }, {
+        "code" : "7816005",
+        "display" : "Antazoline hydrochloride",
+        "definition" : ""
+      }, {
+        "code" : "7834009",
+        "display" : "Acetyl digitoxin",
+        "definition" : ""
+      }, {
+        "code" : "7846008",
+        "display" : "Sphingomyelin phosphodiesterase",
+        "definition" : ""
+      }, {
+        "code" : "7848009",
+        "display" : "1-Phosphatidylinositol phosphodiesterase",
+        "definition" : ""
+      }, {
+        "code" : "7868003",
+        "display" : "beta-Cyclopiazonate dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "7879008",
+        "display" : "^218^Radon",
+        "definition" : ""
+      }, {
+        "code" : "7900007",
+        "display" : "Hemoglobin Presbyterian",
+        "definition" : ""
+      }, {
+        "code" : "7904003",
+        "display" : "Deanol",
+        "definition" : ""
+      }, {
+        "code" : "7909008",
+        "display" : "Arginine carboxypeptidase",
+        "definition" : ""
+      }, {
+        "code" : "7924004",
+        "display" : "Diflorasone",
+        "definition" : ""
+      }, {
+        "code" : "7938006",
+        "display" : "D-Arabinitol dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "7945006",
+        "display" : "Orsellinate-depside hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "7948008",
+        "display" : "Reed-Sternberg antibody",
+        "definition" : ""
+      }, {
+        "code" : "7953003",
+        "display" : "Thioneb",
+        "definition" : ""
+      }, {
+        "code" : "7957002",
+        "display" : "Phosphatidate cytidylyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "7961008",
+        "display" : "Hemoglobin F-Shanghai",
+        "definition" : ""
+      }, {
+        "code" : "7970006",
+        "display" : "Allograft",
+        "definition" : ""
+      }, {
+        "code" : "7974002",
+        "display" : "Blood group antibody Dalman",
+        "definition" : ""
+      }, {
+        "code" : "7975001",
+        "display" : "Amiphenazole",
+        "definition" : ""
+      }, {
+        "code" : "7979007",
+        "display" : "3'-Phosphoadenylylsulfate 3'-phosphatase",
+        "definition" : ""
+      }, {
+        "code" : "7983007",
+        "display" : "Sodium rhodanide",
+        "definition" : ""
+      }, {
+        "code" : "7985000",
+        "display" : "Sulfur isotope",
+        "definition" : ""
+      }, {
+        "code" : "7997004",
+        "display" : "Butyl mercaptan",
+        "definition" : ""
+      }, {
+        "code" : "8000007",
+        "display" : "Cucurbitacin delta^23^-reductase",
+        "definition" : ""
+      }, {
+        "code" : "8002004",
+        "display" : "Blood group antibody Fleming",
+        "definition" : ""
+      }, {
+        "code" : "8025003",
+        "display" : "Blood group antibody Gibson",
+        "definition" : ""
+      }, {
+        "code" : "8029009",
+        "display" : "Allyl glycidyl ether",
+        "definition" : ""
+      }, {
+        "code" : "8030004",
+        "display" : "PEG - Polyethylene glycol",
+        "definition" : ""
+      }, {
+        "code" : "8035009",
+        "display" : "Cholestenol delta-isomerase",
+        "definition" : ""
+      }, {
+        "code" : "8048008",
+        "display" : "Blood group antigen Th",
+        "definition" : ""
+      }, {
+        "code" : "8054009",
+        "display" : "Orotate reductase (NADPH)",
+        "definition" : ""
+      }, {
+        "code" : "8055005",
+        "display" : "Galactoside acetyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "8105004",
+        "display" : "Hemoglobin Leiden",
+        "definition" : ""
+      }, {
+        "code" : "8108002",
+        "display" : "Undecaprenyl-diphosphatase",
+        "definition" : ""
+      }, {
+        "code" : "8123007",
+        "display" : "Blood group antibody Schuppenhauer",
+        "definition" : ""
+      }, {
+        "code" : "8132009",
+        "display" : "Magnesium acetylsalicylate",
+        "definition" : ""
+      }, {
+        "code" : "8143001",
+        "display" : "Diosmin",
+        "definition" : ""
+      }, {
+        "code" : "8153000",
+        "display" : "Homoproline",
+        "definition" : ""
+      }, {
+        "code" : "8156008",
+        "display" : "Immunoglobulin",
+        "definition" : "Fd fragment"
+      }, {
+        "code" : "8164002",
+        "display" : "Cluster of differentiation antigen 67",
+        "definition" : ""
+      }, {
+        "code" : "8168004",
+        "display" : "Uracil-5-carboxylate decarboxylase",
+        "definition" : ""
+      }, {
+        "code" : "8179009",
+        "display" : "Cevadilline",
+        "definition" : ""
+      }, {
+        "code" : "8184003",
+        "display" : "Convallamarogenin",
+        "definition" : ""
+      }, {
+        "code" : "8190004",
+        "display" : "Diaminopimelate epimerase",
+        "definition" : ""
+      }, {
+        "code" : "8202008",
+        "display" : "^43^Potassium",
+        "definition" : ""
+      }, {
+        "code" : "8203003",
+        "display" : "Human menopausal gonadotropin",
+        "definition" : ""
+      }, {
+        "code" : "8204009",
+        "display" : "Polyester",
+        "definition" : ""
+      }, {
+        "code" : "8222007",
+        "display" : "Coagulation factor II Padua variant",
+        "definition" : ""
+      }, {
+        "code" : "8227001",
+        "display" : "^106^Ruthenium",
+        "definition" : ""
+      }, {
+        "code" : "8230008",
+        "display" : "Streptococcal cysteine proteinase",
+        "definition" : ""
+      }, {
+        "code" : "8237006",
+        "display" : "Strobane",
+        "definition" : ""
+      }, {
+        "code" : "8252004",
+        "display" : "Chlorothiazide sodium",
+        "definition" : ""
+      }, {
+        "code" : "8257005",
+        "display" : "Abnormal hemoglobin",
+        "definition" : ""
+      }, {
+        "code" : "8261004",
+        "display" : "Potassium thiosulfate",
+        "definition" : ""
+      }, {
+        "code" : "8268005",
+        "display" : "Blood group antibody Hildebrandt",
+        "definition" : ""
+      }, {
+        "code" : "8270001",
+        "display" : "tRNA adenylyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "8275006",
+        "display" : "Methionine-S-oxide reductase",
+        "definition" : ""
+      }, {
+        "code" : "8295000",
+        "display" : "Uromucoid protein",
+        "definition" : ""
+      }, {
+        "code" : "8300003",
+        "display" : "Cyclohexanol",
+        "definition" : ""
+      }, {
+        "code" : "8310007",
+        "display" : "Hemoglobin Madrid",
+        "definition" : ""
+      }, {
+        "code" : "8313009",
+        "display" : "RNA-directed DNA polymerase",
+        "definition" : ""
+      }, {
+        "code" : "8340009",
+        "display" : "Procollagen-lysine",
+        "definition" : "2-oxoglutarate 5-dioxygenase"
+      }, {
+        "code" : "8342001",
+        "display" : "Brilliant cresyl blue",
+        "definition" : ""
+      }, {
+        "code" : "8343006",
+        "display" : "Blood group antibody Re^a^",
+        "definition" : ""
+      }, {
+        "code" : "8354001",
+        "display" : "Manganese ethylene bis-dithiocarbamate",
+        "definition" : ""
+      }, {
+        "code" : "8355000",
+        "display" : "Hafnium isotope",
+        "definition" : ""
+      }, {
+        "code" : "8362009",
+        "display" : "Anti c",
+        "definition" : ""
+      }, {
+        "code" : "8365006",
+        "display" : "Oil of pennyroyal-European",
+        "definition" : ""
+      }, {
+        "code" : "8368008",
+        "display" : "Xylan 1",
+        "definition" : "44-beta-xylosidase"
+      }, {
+        "code" : "8376005",
+        "display" : "Duffy blood group antibody",
+        "definition" : ""
+      }, {
+        "code" : "8385005",
+        "display" : "Acid alpha-glucosidase",
+        "definition" : ""
+      }, {
+        "code" : "8397006",
+        "display" : "Nicotine resin complex",
+        "definition" : ""
+      }, {
+        "code" : "8406008",
+        "display" : "Nitroethane oxidase",
+        "definition" : ""
+      }, {
+        "code" : "8429000",
+        "display" : "Brilliant orange",
+        "definition" : ""
+      }, {
+        "code" : "8450009",
+        "display" : "Lemon grass oil",
+        "definition" : ""
+      }, {
+        "code" : "8452001",
+        "display" : "Blood group antigen Sisson",
+        "definition" : ""
+      }, {
+        "code" : "8456003",
+        "display" : "Methyl ethyl ketone peroxide",
+        "definition" : ""
+      }, {
+        "code" : "8460000",
+        "display" : "Blood group antibody Vg^a^",
+        "definition" : ""
+      }, {
+        "code" : "8473001",
+        "display" : "Homocysteine methyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "8474007",
+        "display" : "Lead oleate",
+        "definition" : ""
+      }, {
+        "code" : "8484008",
+        "display" : "Blood group antigen Mur",
+        "definition" : ""
+      }, {
+        "code" : "8485009",
+        "display" : "Oncogene protein P210",
+        "definition" : "BCR-ABL"
+      }, {
+        "code" : "8486005",
+        "display" : "HLA-DRw15 antigen",
+        "definition" : ""
+      }, {
+        "code" : "8487001",
+        "display" : "^48^Vanadium",
+        "definition" : ""
+      }, {
+        "code" : "8491006",
+        "display" : "Complement inhibitor",
+        "definition" : ""
+      }, {
+        "code" : "8492004",
+        "display" : "Allantoicase",
+        "definition" : ""
+      }, {
+        "code" : "8498000",
+        "display" : "Short neurotoxin venom",
+        "definition" : ""
+      }, {
+        "code" : "8507001",
+        "display" : "Cyclohexane",
+        "definition" : ""
+      }, {
+        "code" : "8514004",
+        "display" : "Ornithine",
+        "definition" : ""
+      }, {
+        "code" : "8520003",
+        "display" : "Hemoglobin Machida",
+        "definition" : ""
+      }, {
+        "code" : "8525008",
+        "display" : "^183^Osmium",
+        "definition" : ""
+      }, {
+        "code" : "8529002",
+        "display" : "Urinary protein of low molecular weight",
+        "definition" : ""
+      }, {
+        "code" : "8534003",
+        "display" : "^110^Tin",
+        "definition" : ""
+      }, {
+        "code" : "8537005",
+        "display" : "Solution",
+        "definition" : ""
+      }, {
+        "code" : "8578007",
+        "display" : "Potassium cyanate",
+        "definition" : ""
+      }, {
+        "code" : "8591008",
+        "display" : "Dichlorodifluoromethane",
+        "definition" : ""
+      }, {
+        "code" : "8612007",
+        "display" : "Tumor necrosis factor",
+        "definition" : ""
+      }, {
+        "code" : "8620009",
+        "display" : "Oncogene protein TCL6",
+        "definition" : ""
+      }, {
+        "code" : "8631001",
+        "display" : "Potassium chloride",
+        "definition" : ""
+      }, {
+        "code" : "8653004",
+        "display" : "Rubijervine",
+        "definition" : ""
+      }, {
+        "code" : "8660005",
+        "display" : "Complement component C3c",
+        "definition" : ""
+      }, {
+        "code" : "8687009",
+        "display" : "Gum arabic",
+        "definition" : ""
+      }, {
+        "code" : "8689007",
+        "display" : "Kanamycin sulfate",
+        "definition" : ""
+      }, {
+        "code" : "8701002",
+        "display" : "Sulfachlorpyridazine",
+        "definition" : ""
+      }, {
+        "code" : "8705006",
+        "display" : "4-Hydroxybenzoate decarboxylase",
+        "definition" : ""
+      }, {
+        "code" : "8731008",
+        "display" : "Blood group antibody Austin",
+        "definition" : ""
+      }, {
+        "code" : "8740007",
+        "display" : "C3(H20)Bb",
+        "definition" : ""
+      }, {
+        "code" : "8761000",
+        "display" : "Adenylylsulfate kinase",
+        "definition" : ""
+      }, {
+        "code" : "8767001",
+        "display" : "Santonin",
+        "definition" : ""
+      }, {
+        "code" : "8785008",
+        "display" : "Chlorine dioxide",
+        "definition" : ""
+      }, {
+        "code" : "8786009",
+        "display" : "Blood group antigen Wd^a^",
+        "definition" : ""
+      }, {
+        "code" : "8795001",
+        "display" : "Hb F - Hemoglobin F",
+        "definition" : ""
+      }, {
+        "code" : "8817004",
+        "display" : "LH receptor site",
+        "definition" : ""
+      }, {
+        "code" : "8818009",
+        "display" : "Blood group antibody Tri W",
+        "definition" : ""
+      }, {
+        "code" : "8822004",
+        "display" : "Linoleic acid",
+        "definition" : ""
+      }, {
+        "code" : "8830003",
+        "display" : "Nitrate reductase (NAD(P)H)",
+        "definition" : ""
+      }, {
+        "code" : "8836009",
+        "display" : "Gallocyanine",
+        "definition" : ""
+      }, {
+        "code" : "8844009",
+        "display" : "Hydroxybutyrate-dimer hydrolase",
+        "definition" : ""
+      }, {
+        "code" : "8858006",
+        "display" : "Strontium nitrate Sr^85^",
+        "definition" : ""
+      }, {
+        "code" : "8865003",
+        "display" : "Graphite",
+        "definition" : ""
+      }, {
+        "code" : "8878003",
+        "display" : "Blood group antigen Evelyn",
+        "definition" : ""
+      }, {
+        "code" : "8882001",
+        "display" : "3-Hydroxybenzoate 6-monooxygenase",
+        "definition" : ""
+      }, {
+        "code" : "8886003",
+        "display" : "Flecainide acetate",
+        "definition" : ""
+      }, {
+        "code" : "8908003",
+        "display" : "Blood group antibody I^T^",
+        "definition" : ""
+      }, {
+        "code" : "8914005",
+        "display" : "Endolymph",
+        "definition" : ""
+      }, {
+        "code" : "8919000",
+        "display" : "Biotin",
+        "definition" : ""
+      }, {
+        "code" : "8926000",
+        "display" : "Azur B",
+        "definition" : ""
+      }, {
+        "code" : "8945009",
+        "display" : "Phosphopantothenate-cysteine ligase",
+        "definition" : ""
+      }, {
+        "code" : "8953001",
+        "display" : "2",
+        "definition" : "3-Dihydroxyindole 2"
+      }, {
+        "code" : "8963009",
+        "display" : "N-Acetylmuramoyl-L-alanine amidase",
+        "definition" : ""
+      }, {
+        "code" : "8969008",
+        "display" : "Bulbourethral secretions",
+        "definition" : ""
+      }, {
+        "code" : "8977007",
+        "display" : "Blood group antibody Tarplee",
+        "definition" : ""
+      }, {
+        "code" : "8982000",
+        "display" : "Oleate hydratase",
+        "definition" : ""
+      }, {
+        "code" : "8987006",
+        "display" : "Cycle-phase specific agent",
+        "definition" : ""
+      }, {
+        "code" : "8991001",
+        "display" : "Ribulokinase",
+        "definition" : ""
+      }, {
+        "code" : "9010006",
+        "display" : "Methyl blue",
+        "definition" : ""
+      }, {
+        "code" : "9013008",
+        "display" : "Dephospho-CoA kinase",
+        "definition" : ""
+      }, {
+        "code" : "9021002",
+        "display" : "Carbaryl",
+        "definition" : ""
+      }, {
+        "code" : "9024005",
+        "display" : "G6PD - Glucose-6-phosphate dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "9045003",
+        "display" : "Radon radioisotope",
+        "definition" : ""
+      }, {
+        "code" : "9052001",
+        "display" : "Allspice oil",
+        "definition" : ""
+      }, {
+        "code" : "9054000",
+        "display" : "Human leukocyte antigen B15",
+        "definition" : ""
+      }, {
+        "code" : "9103003",
+        "display" : "Retinol fatty-acyltransferase",
+        "definition" : ""
+      }, {
+        "code" : "9110009",
+        "display" : "Mercuric compound",
+        "definition" : ""
+      }, {
+        "code" : "9125009",
+        "display" : "Sempervirine",
+        "definition" : ""
+      }, {
+        "code" : "9159008",
+        "display" : "Triacetate-lactonase",
+        "definition" : ""
+      }, {
+        "code" : "9172009",
+        "display" : "Blood group antibody Alda",
+        "definition" : ""
+      }, {
+        "code" : "9174005",
+        "display" : "Fibrinogen Poitiers",
+        "definition" : ""
+      }, {
+        "code" : "9183000",
+        "display" : "beta-N-Acetylgalactosaminidase",
+        "definition" : ""
+      }, {
+        "code" : "9189001",
+        "display" : "CMP-N-acetylneuraminate-lactosylceramide alpha-2",
+        "definition" : "3-sialyltransferase"
+      }, {
+        "code" : "9195000",
+        "display" : "Immunoglobulin gene INV allotype",
+        "definition" : ""
+      }, {
+        "code" : "9197008",
+        "display" : "Apiose reductase",
+        "definition" : ""
+      }, {
+        "code" : "9205004",
+        "display" : "Hemoglobin Tarrant",
+        "definition" : ""
+      }, {
+        "code" : "9220005",
+        "display" : "Plant phenol oil",
+        "definition" : ""
+      }, {
+        "code" : "9223007",
+        "display" : "Borneol dehydrogenase",
+        "definition" : ""
+      }, {
+        "code" : "9234005",
+        "display" : "Chlorobutanol",
+        "definition" : ""
+      }, {
+        "code" : "9246009",
+        "display" : "^118^Tellurium",
+        "definition" : ""
+      }, {
+        "code" : "9253000",
+        "display" : "HLA-DRw16 antigen",
+        "definition" : ""
+      }, {
+        "code" : "9270008",
+        "display" : "Catecholamine receptor",
+        "definition" : ""
+      } ]
+    } ]
+  }
+}

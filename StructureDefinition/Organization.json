@@ -1,0 +1,48 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Organization",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Organization",
+  "name" : "Organization",
+  "title" : "Organization Profile",
+  "status" : "active",
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "A formally or informally recognized grouping of people or organizations formed for the purpose of achieving some form of collective action.  Includes companies, institutions, corporations, departments, community groups, healthcare practice groups, payer/insurer, etc.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Organization",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Organization",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Organization.identifier",
+      "path" : "Organization.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.identifier.system",
+      "path" : "Organization.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.identifier.value",
+      "path" : "Organization.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.name",
+      "path" : "Organization.name",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.alias",
+      "path" : "Organization.alias",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.telecom",
+      "path" : "Organization.telecom",
+      "mustSupport" : true
+    }, {
+      "id" : "Organization.address",
+      "path" : "Organization.address",
+      "mustSupport" : true
+    } ]
+  }
+}

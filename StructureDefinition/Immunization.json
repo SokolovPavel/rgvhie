@@ -1,0 +1,88 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Immunization",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Immunization",
+  "name" : "Immunization",
+  "title" : "US Core Immunization Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "Describes the event of a patient being administered a vaccine or a record of an immunization as reported by a patient, a clinician or another party.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Immunization",
+  "baseDefinition" : "https://www.hl7.org/fhir/device.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Immunization.patient",
+      "path" : "Immunization.patient",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "Reference"
+      } ]
+    }, {
+      "id" : "Immunization.identifier",
+      "path" : "Immunization.identifier",
+      "mustSupport" : true,
+      "min" : 0,
+      "max" : "*"
+    }, {
+      "id" : "Immunization.status",
+      "path" : "Immunization.status",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.occurrence",
+      "path" : "Immunization.occurrence",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.vaccineCode",
+      "path" : "Immunization.vaccineCode",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.lotNumber",
+      "path" : "Immunization.lotNumber",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.manufacturer",
+      "path" : "Immunization.manufacturer",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.performer",
+      "path" : "Immunization.performer",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "CodeableConcept"
+      } ]
+    }, {
+      "id" : "Immunization.primarySource",
+      "path" : "Immunization.primarySource",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.site",
+      "path" : "Immunization.site",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.route",
+      "path" : "Immunization.route",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.doseQuantity",
+      "path" : "Immunization.doseQuantity",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.reasonCode",
+      "path" : "Immunization.reasonCode",
+      "mustSupport" : true
+    }, {
+      "id" : "Immunization.reaction",
+      "path" : "Immunization.reaction",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "Reference"
+      } ]
+    } ]
+  }
+}

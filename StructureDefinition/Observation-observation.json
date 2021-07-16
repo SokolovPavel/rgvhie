@@ -1,0 +1,99 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Observation-observation",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Observation-observation",
+  "name" : "Observation",
+  "title" : "US Core Observation Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "This profile sets minimum expectations for the Observation resource to record,\nsearch and fetch smoking status data associated with a patient. It identifies\nwhich core elements, extensions, vocabularies and value sets SHALL be present\nin the resource when using this profile.\n",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Observation",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Observation",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Observation.identifier",
+      "path" : "Observation.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.identifier.system",
+      "path" : "Observation.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.identifier.value",
+      "path" : "Observation.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.subject",
+      "path" : "Observation.subject",
+      "mustSupport" : true,
+      "min" : 1,
+      "refs" : [ "/Patient" ]
+    }, {
+      "id" : "Observation.code",
+      "path" : "Observation.code",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.status",
+      "path" : "Observation.status",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.effective",
+      "path" : "Observation.effective",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.bodySite",
+      "path" : "Observation.bodySite",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.dataAbsentReason",
+      "path" : "Observation.dataAbsentReason",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.value",
+      "path" : "Observation.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.performer",
+      "path" : "Observation.performer",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.method",
+      "path" : "Observation.method",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.issued",
+      "path" : "Observation.issued",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.interpretation",
+      "path" : "Observation.interpretation",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.referenceRange",
+      "path" : "Observation.referenceRange",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.referenceRange.low",
+      "path" : "Observation.referenceRange.low",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.referenceRange.high",
+      "path" : "Observation.referenceRange.high",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.referenceRange.type",
+      "path" : "Observation.referenceRange.type",
+      "mustSupport" : true
+    }, {
+      "id" : "Observation.referenceRange.text",
+      "path" : "Observation.referenceRange.text",
+      "mustSupport" : true
+    } ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "allergy-intolerance-category",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/allergy-intolerance-category",
+  "name" : "AllergyIntoleranceCategory",
+  "title" : "allergy intolerance category",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "concept" : [ {
+        "code" : "food",
+        "display" : "Food",
+        "definition" : "Any substance consumed to provide nutritional support for the body."
+      }, {
+        "code" : "medication",
+        "display" : "Medication",
+        "definition" : "Substances administered to achieve a physiological effect."
+      }, {
+        "code" : "environment",
+        "display" : "Environment",
+        "definition" : "Any substances that are encountered in the environment"
+      }, {
+        "code" : "biologic",
+        "display" : "Biologic",
+        "definition" : "A preparation that is synthesized from living organisms or their products"
+      } ]
+    } ]
+  }
+}

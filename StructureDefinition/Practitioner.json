@@ -1,0 +1,43 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Practitioner",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Practitioner",
+  "name" : "Practitioner",
+  "title" : "US Core Practitioner Profile",
+  "status" : "active",
+  "date" : "2021-03-23",
+  "description" : "This profile sets minimum expectations for the Practitioner resource",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Practitioner",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Practitioner",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Practitioner.identifier",
+      "path" : "Practitioner.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Practitioner.identifier.system",
+      "path" : "Practitioner.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Practitioner.identifier.value",
+      "path" : "Practitioner.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Practitioner.name",
+      "path" : "Practitioner.name",
+      "mustSupport" : true
+    }, {
+      "id" : "Practitioner.address",
+      "path" : "Practitioner.address",
+      "mustSupport" : true
+    }, {
+      "id" : "Practitioner.telecom",
+      "path" : "Practitioner.telecom",
+      "mustSupport" : true
+    } ]
+  }
+}

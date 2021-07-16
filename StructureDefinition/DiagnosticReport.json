@@ -1,0 +1,55 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "DiagnosticReport",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/DiagnosticReport",
+  "name" : "DiagnosticReport",
+  "title" : "DiagnosticReport Profile",
+  "status" : "active",
+  "date" : "2021-03-23",
+  "description" : "The findings and interpretation of diagnostic  tests performed on patients, groups of patients, devices, and locations, and/or specimens derived from these. The report includes clinical context such as requesting and provider information, and some mix of atomic results, images, textual and coded interpretations, and formatted representation of diagnostic reports.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "DiagnosticReport",
+  "baseDefinition" : "https://www.hl7.org/fhir/diagnosticreport.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "DiagnosticReport.subject",
+      "path" : "DiagnosticReport.subject",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.identifier",
+      "path" : "DiagnosticReport.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.identifier.system",
+      "path" : "DiagnosticReport.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.identifier.value",
+      "path" : "DiagnosticReport.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.code",
+      "path" : "DiagnosticReport.code",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.status",
+      "path" : "DiagnosticReport.status",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.effective",
+      "path" : "DiagnosticReport.effective",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.performer",
+      "path" : "DiagnosticReport.performer",
+      "mustSupport" : true
+    }, {
+      "id" : "DiagnosticReport.result",
+      "path" : "DiagnosticReport.result",
+      "mustSupport" : true
+    } ]
+  }
+}

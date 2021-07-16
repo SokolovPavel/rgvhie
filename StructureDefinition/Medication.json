@@ -1,0 +1,35 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Medication",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Medication",
+  "name" : "Medication",
+  "title" : "US Core AllergyIntolerance Profile",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-23",
+  "publisher" : "US Core",
+  "description" : "This resource is primarily used for the identification and definition of a medication for the purposes of prescribing, dispensing, and administering a medication as well as for making statements about medication use.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "MedicationStatement",
+  "baseDefinition" : "http://hl7.org/fhir/us/core/StructureDefinition-us-core-medication.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Medication.code",
+      "path" : "Medication.code",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "CodeableConcept"
+      } ]
+    }, {
+      "id" : "Medication.manufacturer",
+      "path" : "Medication.manufacturer",
+      "mustSupport" : true,
+      "type" : [ {
+        "code" : "Reference"
+      } ]
+    } ]
+  }
+}

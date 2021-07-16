@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "contact-point-system",
+  "url" : "https://healthsamurai.github.io/rgvhie/ValueSet/contact-point-system",
+  "name" : "ContactPointSystem",
+  "title" : "contact point system",
+  "status" : "active",
+  "date" : "2021-07-16T08:51:27Z",
+  "compose" : {
+    "include" : [ {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "concept" : [ {
+        "code" : "phone",
+        "display" : "Phone",
+        "definition" : "The value is a telephone number used for voice calls. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+      }, {
+        "code" : "fax",
+        "display" : "Fax",
+        "definition" : "The value is a fax machine. Use of full international numbers starting with + is recommended to enable automatic dialing support but not required."
+      }, {
+        "code" : "email",
+        "display" : "Email",
+        "definition" : "The value is an email address."
+      }, {
+        "code" : "pager",
+        "display" : "Pager",
+        "definition" : "The value is a pager number. These may be local pager numbers that are only usable on a particular pager system."
+      }, {
+        "code" : "url",
+        "display" : "URL",
+        "definition" : "A contact that is not a phone"
+      }, {
+        "code" : "sms",
+        "display" : "SMS",
+        "definition" : "A contact that can be used for sending an sms message (e.g. mobile phones"
+      }, {
+        "code" : "other",
+        "display" : "Other",
+        "definition" : "A contact that is not a phone"
+      } ]
+    } ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Coverage",
+  "url" : "https://healthsamurai.github.io/rgvhie/StructureDefinition/Coverage",
+  "name" : "Coverage",
+  "title" : "Coverage Profile",
+  "status" : "active",
+  "date" : "2021-03-23",
+  "description" : "Financial instrument which may be used to reimburse or pay for health care products and services. Includes both insurance and self-payment.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "resource",
+  "abstract" : false,
+  "type" : "Coverage",
+  "baseDefinition" : "https://www.hl7.org/fhir/coverage.html",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [ {
+      "id" : "Coverage.identifier",
+      "path" : "Coverage.identifier",
+      "mustSupport" : true
+    }, {
+      "id" : "Coverage.identifier.system",
+      "path" : "Coverage.identifier.system",
+      "mustSupport" : true
+    }, {
+      "id" : "Coverage.identifier.value",
+      "path" : "Coverage.identifier.value",
+      "mustSupport" : true
+    }, {
+      "id" : "Coverage.status",
+      "path" : "Coverage.status",
+      "mustSupport" : true
+    }, {
+      "id" : "Coverage.text",
+      "path" : "Coverage.text",
+      "mustSupport" : true
+    }, {
+      "id" : "Coverage.payor",
+      "path" : "Coverage.payor",
+      "mustSupport" : true
+    } ]
+  }
+}
